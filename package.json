@@ -1,8 +1,12 @@
 {
     "name": "musetesting",
-    "description": "A Node-RED Project",
+    "description": "muse test",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@flowfuse/node-red-dashboard": "1.31.0",
+        "com-amx-mojo-nodes": "1.0.0",
+        "node-red-contrib-room-tools": "1.9.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",

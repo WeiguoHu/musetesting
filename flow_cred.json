@@ -1,1 +1,26 @@
-{}
+{
+    "a1467006d5cde078": {
+        "username": "admin",
+        "password": "testtesttest",
+        "editorUsername": "editor",
+        "editorPassword": "test"
+    },
+    "15f45309e23ec94e": {
+        "username": "admin",
+        "password": "testtesttest",
+        "editorUsername": "editor",
+        "editorPassword": "test"
+    },
+    "5ad8d2331b9b5b61": {
+        "username": "admin",
+        "password": "testtesttest",
+        "editorUsername": "editor",
+        "editorPassword": "test"
+    },
+    "parade_simulation_panel": {
+        "username": "admin",
+        "password": "testtesttest",
+        "editorUsername": "editor",
+        "editorPassword": "test"
+    }
+}

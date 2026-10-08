@@ -1,0 +1,10 @@
+{
+    "rc_secure_gateway": {
+        "username": "room01",
+        "password": "testtesttest"
+    },
+    "r2_gateway": {
+        "username": "room02",
+        "password": "testtesttest"
+    }
+}
