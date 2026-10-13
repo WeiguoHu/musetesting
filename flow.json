@@ -1817,96 +1817,6 @@
         "disabled": false
     },
     {
-        "id": "blu806_hardware_theme",
-        "type": "ui-theme",
-        "name": "BLU Hardware",
-        "colors": {
-            "surface": "#f4f6f5",
-            "primary": "#11795a",
-            "bgPage": "#f4f6f5",
-            "groupBg": "#f4f6f5",
-            "groupOutline": "#f4f6f5"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "0px",
-            "groupGap": "0px",
-            "groupBorderRadius": "0px",
-            "widgetGap": "0px"
-        }
-    },
-    {
-        "id": "blu806_hardware_page",
-        "type": "ui-page",
-        "name": "BLU-806",
-        "ui": "bce2081140347e9f",
-        "path": "/blu806-test",
-        "icon": "audio-input-xlr",
-        "layout": "grid",
-        "theme": "blu806_hardware_theme",
-        "breakpoints": [
-            {
-                "name": "Mobile",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 12,
-        "className": "",
-        "visible": true,
-        "disabled": false
-    },
-    {
-        "id": "precis_power_theme",
-        "type": "ui-theme",
-        "name": "Precis Recovery",
-        "colors": {
-            "surface": "#f4f6f5",
-            "primary": "#237cb4",
-            "bgPage": "#f4f6f5",
-            "groupBg": "#f4f6f5",
-            "groupOutline": "#f4f6f5"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "0px",
-            "groupGap": "0px",
-            "groupBorderRadius": "0px",
-            "widgetGap": "0px"
-        }
-    },
-    {
-        "id": "precis_power_page",
-        "type": "ui-page",
-        "name": "Precis",
-        "ui": "bce2081140347e9f",
-        "path": "/precis-power-test",
-        "icon": "tune",
-        "layout": "grid",
-        "theme": "precis_power_theme",
-        "breakpoints": [
-            {
-                "name": "Mobile",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 13,
-        "className": "",
-        "visible": true,
-        "disabled": false
-    },
-    {
         "id": "combined_power_theme",
         "type": "ui-theme",
         "name": "Combined Recovery",
@@ -14329,20 +14239,6 @@
         "x": 280,
         "y": 290,
         "wires": []
-    },
-    {
-        "id": "5c0feb8a1cc9262c",
-        "type": "Command",
-        "z": "78cb8aa58273455c",
-        "name": "Command",
-        "mojo": {
-            "version": "1.0"
-        },
-        "x": 630,
-        "y": 600,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "parade_simulation_panel",
