@@ -2145,8 +2145,7 @@
             [
                 "cp1d75c34f7f4f-xy-series-manifest-1-tag"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-7"
+        ]
     },
     {
         "id": "cp1d75c34f7f4f-xy-series-manifest-1-tag",
@@ -2210,8 +2209,7 @@
             [
                 "cp1d75c34f7f4f-xy-series-frame-1-tag"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-7"
+        ]
     },
     {
         "id": "cp1d75c34f7f4f-xy-series-frame-1-tag",
@@ -2348,8 +2346,7 @@
             [
                 "cpdadbc5678357-tag-1"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cpdadbc5678357-tag-1",
@@ -2448,8 +2445,7 @@
             [
                 "cpdadbc5678357-tag-2"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cpdadbc5678357-tag-2",
@@ -2548,8 +2544,7 @@
             [
                 "cpdadbc5678357-tag-3"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cpdadbc5678357-tag-3",
@@ -2648,8 +2643,7 @@
             [
                 "cpdadbc5678357-tag-4"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cpdadbc5678357-tag-4",
@@ -4241,8 +4235,7 @@
             [
                 "cp3b42054acab3-health-tag-1"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp3b42054acab3-health-tag-1",
@@ -4420,8 +4413,7 @@
             [
                 "cp3b42054acab3-tag-1"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp3b42054acab3-tag-1",
@@ -4520,8 +4512,7 @@
             [
                 "cp3b42054acab3-tag-2"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp3b42054acab3-tag-2",
@@ -4620,8 +4611,7 @@
             [
                 "cp3b42054acab3-tag-3"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp3b42054acab3-tag-3",
@@ -4720,8 +4710,7 @@
             [
                 "cp3b42054acab3-tag-4"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp3b42054acab3-tag-4",
@@ -4799,8 +4788,7 @@
             [
                 "cp3b42054acab3-meter-manifest-1-tag"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-7"
+        ]
     },
     {
         "id": "cp3b42054acab3-meter-manifest-1-tag",
@@ -4864,8 +4852,7 @@
             [
                 "cp3b42054acab3-meter-frame-1-tag"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-7"
+        ]
     },
     {
         "id": "cp3b42054acab3-meter-frame-1-tag",
@@ -4951,8 +4938,7 @@
             [
                 "cp3b42054acab3-tag-5"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp3b42054acab3-tag-5",
@@ -5120,8 +5106,7 @@
             [
                 "cp7a5f64799848-health-tag-1"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-8"
+        ]
     },
     {
         "id": "cp7a5f64799848-health-tag-1",
@@ -5199,8 +5184,7 @@
             [
                 "cp7a5f64799848-meter-manifest-1-tag"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-8"
+        ]
     },
     {
         "id": "cp7a5f64799848-meter-manifest-1-tag",
@@ -5264,8 +5248,7 @@
             [
                 "cp7a5f64799848-meter-frame-1-tag"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-8"
+        ]
     },
     {
         "id": "cp7a5f64799848-meter-frame-1-tag",
@@ -5351,8 +5334,7 @@
             [
                 "cp7a5f64799848-tag-1"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-8"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-1",
@@ -5431,8 +5413,7 @@
             [
                 "cp7a5f64799848-tag-2"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-8"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-2",
@@ -5531,8 +5512,7 @@
             [
                 "cp7a5f64799848-tag-3"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-8"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-3",
@@ -5611,8 +5591,7 @@
             [
                 "cp7a5f64799848-health-tag-2"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp7a5f64799848-health-tag-2",
@@ -5691,8 +5670,7 @@
             [
                 "cp7a5f64799848-tag-4"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-4",
@@ -5791,8 +5769,7 @@
             [
                 "cp7a5f64799848-tag-5"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-5",
@@ -5891,8 +5868,7 @@
             [
                 "cp7a5f64799848-tag-6"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-6",
@@ -5991,8 +5967,7 @@
             [
                 "cp7a5f64799848-tag-7"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-7",
@@ -6091,8 +6066,7 @@
             [
                 "cp7a5f64799848-tag-8"
             ]
-        ],
-        "cpSubscriptionEpoch": "catalog-6"
+        ]
     },
     {
         "id": "cp7a5f64799848-tag-8",
@@ -14355,6 +14329,20 @@
         "x": 280,
         "y": 290,
         "wires": []
+    },
+    {
+        "id": "5c0feb8a1cc9262c",
+        "type": "Command",
+        "z": "78cb8aa58273455c",
+        "name": "Command",
+        "mojo": {
+            "version": "1.0"
+        },
+        "x": 630,
+        "y": 600,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "parade_simulation_panel",
