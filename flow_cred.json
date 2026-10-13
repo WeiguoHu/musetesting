@@ -22,5 +22,11 @@
         "password": "testtesttest",
         "editorUsername": "editor",
         "editorPassword": "test"
+    },
+    "combined_power_panel": {
+        "username": "admin",
+        "password": "testtesttest",
+        "editorUsername": "editor",
+        "editorPassword": "test"
     }
 }
