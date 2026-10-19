@@ -197,7 +197,7 @@
         "id": "cp1d75c34f7f4f-bridge",
         "type": "subflow",
         "name": "Binding bridge cp1d75c34f7f4f",
-        "info": "control-panel-managed-v1:parade_simulation_panel:af52de2e95361079e6028f7205b9fef850b2c3cdb29b4d113390de0a089c536d",
+        "info": "control-panel-managed-v1:parade_simulation_panel:c6b0d4496f9acf1136811e5badcc3af1d801719bd4d2c0d67e2c23ce15a1bb79",
         "category": "panel binding",
         "in": [
             {
@@ -234,7 +234,7 @@
         "id": "cpdadbc5678357-bridge",
         "type": "subflow",
         "name": "Binding bridge cpdadbc5678357",
-        "info": "control-panel-managed-v1:a1467006d5cde078:43a7613d3f444860c77da9ea5ef37ac3ff7a5f5c1e0f8d81a88fc6913d716ef4",
+        "info": "control-panel-managed-v1:a1467006d5cde078:5177ba3d10eb087fa4d387e67fde62dd0a5461d1bc8154b52debe8e09892f884",
         "category": "panel binding",
         "in": [
             {
@@ -394,75 +394,10 @@
         "color": "#96bca7"
     },
     {
-        "id": "cp3b42054acab3-bridge",
-        "type": "subflow",
-        "name": "Binding bridge cp3b42054acab3",
-        "info": "control-panel-managed-v1:15f45309e23ec94e:b780b522565f3b3d6c7a810af5632b5aa487a69b96c06eab72c24189e4055392",
-        "category": "panel binding",
-        "in": [
-            {
-                "x": 170,
-                "y": 150,
-                "wires": [
-                    {
-                        "id": "cp3b42054acab3-router"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 1600,
-                "y": 990,
-                "wires": [
-                    {
-                        "id": "cp3b42054acab3-tag-1",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-tag-2",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-tag-3",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-tag-4",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-tag-5",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-meter-manifest-1-tag",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-meter-frame-1-tag",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-health-tag-1",
-                        "port": 0
-                    },
-                    {
-                        "id": "cp3b42054acab3-health-tag-2",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#96bca7"
-    },
-    {
         "id": "cp7a5f64799848-bridge",
         "type": "subflow",
         "name": "Binding bridge cp7a5f64799848",
-        "info": "control-panel-managed-v1:combined_power_panel:12ce5a41c64b068ee93722a921186b561c71ae3799d82b7f0fc1faca8307be52",
+        "info": "control-panel-managed-v1:combined_power_panel:8b2a18bc177d873a0af7b47def45dd6571396d4a027c7d679bcfc4fe534902f7",
         "category": "panel binding",
         "in": [
             {
@@ -526,6 +461,67 @@
                     },
                     {
                         "id": "cp7a5f64799848-health-tag-2",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#96bca7"
+    },
+    {
+        "id": "cp3b42054acab3-bridge",
+        "type": "subflow",
+        "name": "Binding bridge cp3b42054acab3",
+        "info": "control-panel-managed-v1:15f45309e23ec94e:8d04cb8c4744d39fb971e48ef31f5d82ecb6d8afdf838dd544ee4cbc7bbfae93",
+        "category": "panel binding",
+        "in": [
+            {
+                "x": 170,
+                "y": 150,
+                "wires": [
+                    {
+                        "id": "cp3b42054acab3-router"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1600,
+                "y": 900,
+                "wires": [
+                    {
+                        "id": "cp3b42054acab3-tag-1",
+                        "port": 0
+                    },
+                    {
+                        "id": "cp3b42054acab3-tag-2",
+                        "port": 0
+                    },
+                    {
+                        "id": "cp3b42054acab3-tag-3",
+                        "port": 0
+                    },
+                    {
+                        "id": "cp3b42054acab3-tag-4",
+                        "port": 0
+                    },
+                    {
+                        "id": "cp3b42054acab3-meter-manifest-1-tag",
+                        "port": 0
+                    },
+                    {
+                        "id": "cp3b42054acab3-meter-frame-1-tag",
+                        "port": 0
+                    },
+                    {
+                        "id": "cp3b42054acab3-health-tag-1",
+                        "port": 0
+                    },
+                    {
+                        "id": "cp3b42054acab3-health-tag-2",
                         "port": 0
                     }
                 ]
@@ -1812,6 +1808,96 @@
             }
         ],
         "order": 10,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "blu806_hardware_theme",
+        "type": "ui-theme",
+        "name": "BLU Hardware",
+        "colors": {
+            "surface": "#f4f6f5",
+            "primary": "#11795a",
+            "bgPage": "#f4f6f5",
+            "groupBg": "#f4f6f5",
+            "groupOutline": "#f4f6f5"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "0px",
+            "groupGap": "0px",
+            "groupBorderRadius": "0px",
+            "widgetGap": "0px"
+        }
+    },
+    {
+        "id": "blu806_hardware_page",
+        "type": "ui-page",
+        "name": "BLU-806",
+        "ui": "bce2081140347e9f",
+        "path": "/blu806-test",
+        "icon": "audio-input-xlr",
+        "layout": "grid",
+        "theme": "blu806_hardware_theme",
+        "breakpoints": [
+            {
+                "name": "Mobile",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 12,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "precis_power_theme",
+        "type": "ui-theme",
+        "name": "Precis Recovery",
+        "colors": {
+            "surface": "#f4f6f5",
+            "primary": "#237cb4",
+            "bgPage": "#f4f6f5",
+            "groupBg": "#f4f6f5",
+            "groupOutline": "#f4f6f5"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "0px",
+            "groupGap": "0px",
+            "groupBorderRadius": "0px",
+            "widgetGap": "0px"
+        }
+    },
+    {
+        "id": "precis_power_page",
+        "type": "ui-page",
+        "name": "Precis",
+        "ui": "bce2081140347e9f",
+        "path": "/precis-power-test",
+        "icon": "tune",
+        "layout": "grid",
+        "theme": "precis_power_theme",
+        "breakpoints": [
+            {
+                "name": "Mobile",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 13,
         "className": "",
         "visible": true,
         "disabled": false
@@ -4103,877 +4189,6 @@
         ]
     },
     {
-        "id": "cp3b42054acab3-health-read-1",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read availability Precis Driver //processors/1/online",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "parameter": "//processors/1/online",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1640,
-        "wires": [
-            [
-                "cp3b42054acab3-health-tag-1"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-health-watch-1",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch availability Precis Driver //processors/1/online",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "event": "//processors/1/online",
-            "eventKind": "Parameter",
-            "paramType": "Boolean",
-            "boolParamFilter": "Any",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1700,
-        "wires": [
-            [
-                "cp3b42054acab3-health-tag-1"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-health-tag-1",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify availability Precis Driver //processors/1/online",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-availability",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Precis Driver",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//processors/1/online",
-                "tot": "str"
-            }
-        ],
-        "x": 900,
-        "y": 1670,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-health-read-2",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read availability Precis Driver //processors/1/stateReady",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "parameter": "//processors/1/stateReady",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1810,
-        "wires": [
-            [
-                "cp3b42054acab3-health-tag-2"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-health-watch-2",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch availability Precis Driver //processors/1/stateReady",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "event": "//processors/1/stateReady",
-            "eventKind": "Parameter",
-            "paramType": "Boolean",
-            "boolParamFilter": "Any",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1870,
-        "wires": [
-            [
-                "cp3b42054acab3-health-tag-2"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-health-tag-2",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify availability Precis Driver //processors/1/stateReady",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-availability",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Precis Driver",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//processors/1/stateReady",
-                "tot": "str"
-            }
-        ],
-        "x": 900,
-        "y": 1840,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-write-1",
-        "type": "Command",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Write Precis Driver //processors/1/channels/2/level1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "command": "//processors/1/channels/2/level1",
-            "onebased": false,
-            "cmdvalue": "Message payload"
-        },
-        "x": 1860,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-read-1",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read Precis Driver //processors/1/channels/2/level1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "parameter": "//processors/1/channels/2/level1",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 530,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-1"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-watch-1",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch Precis Driver //processors/1/channels/2/level1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "event": "//processors/1/channels/2/level1",
-            "eventKind": "Parameter",
-            "paramType": "Integer",
-            "onebased": false,
-            "normalized": false
-        },
-        "x": 440,
-        "y": 590,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-1"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-tag-1",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify Precis Driver //processors/1/channels/2/level1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-feedback",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Precis Driver",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//processors/1/channels/2/level1",
-                "tot": "str"
-            }
-        ],
-        "x": 900,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-write-2",
-        "type": "Command",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Write Precis Driver //processors/1/channels/1/mute1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "command": "//processors/1/channels/1/mute1",
-            "onebased": false,
-            "cmdvalue": "Message payload"
-        },
-        "x": 1860,
-        "y": 230,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-read-2",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read Precis Driver //processors/1/channels/1/mute1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "parameter": "//processors/1/channels/1/mute1",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 700,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-2"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-watch-2",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch Precis Driver //processors/1/channels/1/mute1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "event": "//processors/1/channels/1/mute1",
-            "eventKind": "Parameter",
-            "paramType": "Boolean",
-            "onebased": false,
-            "boolParamFilter": "Any"
-        },
-        "x": 440,
-        "y": 760,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-2"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-tag-2",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify Precis Driver //processors/1/channels/1/mute1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-feedback",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Precis Driver",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//processors/1/channels/1/mute1",
-                "tot": "str"
-            }
-        ],
-        "x": 900,
-        "y": 730,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-write-3",
-        "type": "Command",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Write Precis Driver //processors/1/channels/1/mute2",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "command": "//processors/1/channels/1/mute2",
-            "onebased": false,
-            "cmdvalue": "Message payload"
-        },
-        "x": 1860,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-read-3",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read Precis Driver //processors/1/channels/1/mute2",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "parameter": "//processors/1/channels/1/mute2",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 870,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-3"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-watch-3",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch Precis Driver //processors/1/channels/1/mute2",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "event": "//processors/1/channels/1/mute2",
-            "eventKind": "Parameter",
-            "paramType": "Boolean",
-            "onebased": false,
-            "boolParamFilter": "Any"
-        },
-        "x": 440,
-        "y": 930,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-3"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-tag-3",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify Precis Driver //processors/1/channels/1/mute2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-feedback",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Precis Driver",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//processors/1/channels/1/mute2",
-                "tot": "str"
-            }
-        ],
-        "x": 900,
-        "y": 900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-write-4",
-        "type": "Command",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Write Precis Driver //processors/1/channels/1/level1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "command": "//processors/1/channels/1/level1",
-            "onebased": false,
-            "cmdvalue": "Message payload"
-        },
-        "x": 1860,
-        "y": 450,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-read-4",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read Precis Driver //processors/1/channels/1/level1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "parameter": "//processors/1/channels/1/level1",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1040,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-4"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-watch-4",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch Precis Driver //processors/1/channels/1/level1",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "event": "//processors/1/channels/1/level1",
-            "eventKind": "Parameter",
-            "paramType": "Integer",
-            "onebased": false,
-            "normalized": false
-        },
-        "x": 440,
-        "y": 1100,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-4"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-tag-4",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify Precis Driver //processors/1/channels/1/level1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-feedback",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Precis Driver",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//processors/1/channels/1/level1",
-                "tot": "str"
-            }
-        ],
-        "x": 900,
-        "y": 1070,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-meter-read-1",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read meter manifest Meter Validation",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Meter Validation"
-            ],
-            "parameter": "//manifest",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1330,
-        "wires": [
-            [
-                "cp3b42054acab3-meter-manifest-1-tag"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-meter-manifest-1",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch meter manifest Meter Validation validation/levels",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Meter Validation"
-            ],
-            "event": "//manifest",
-            "eventKind": "Parameter",
-            "paramType": "String",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1390,
-        "wires": [
-            [
-                "cp3b42054acab3-meter-manifest-1-tag"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-meter-manifest-1-tag",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify meter manifest Meter Validation",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-meter-manifest",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Meter Validation",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//manifest",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "streamId",
-                "pt": "msg",
-                "to": "validation/levels",
-                "tot": "str"
-            }
-        ],
-        "x": 1000,
-        "y": 1390,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-meter-frame-1",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch meter frame Meter Validation validation/levels",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Meter Validation"
-            ],
-            "event": "//frame",
-            "eventKind": "Event",
-            "paramType": "String",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1530,
-        "wires": [
-            [
-                "cp3b42054acab3-meter-frame-1-tag"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-meter-frame-1-tag",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify meter frame Meter Validation",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-meter-frame",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Meter Validation",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//frame",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "streamId",
-                "pt": "msg",
-                "to": "validation/levels",
-                "tot": "str"
-            }
-        ],
-        "x": 1000,
-        "y": 1530,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-read-5",
-        "type": "Status",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Read Precis Driver //configuredCount",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "parameter": "//configuredCount",
-            "onebased": false
-        },
-        "x": 440,
-        "y": 1210,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-5"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-watch-5",
-        "type": "Event",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Watch Precis Driver //configuredCount",
-        "mojo": {
-            "version": "1.0",
-            "device": [
-                "Precis Driver"
-            ],
-            "event": "//configuredCount",
-            "eventKind": "Parameter",
-            "paramType": "Integer",
-            "onebased": false,
-            "normalized": false
-        },
-        "x": 440,
-        "y": 1270,
-        "wires": [
-            [
-                "cp3b42054acab3-tag-5"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-tag-5",
-        "type": "change",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Identify Precis Driver //configuredCount",
-        "rules": [
-            {
-                "t": "set",
-                "p": "kind",
-                "pt": "msg",
-                "to": "device-feedback",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "device",
-                "pt": "msg",
-                "to": "Precis Driver",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "msg",
-                "to": "//configuredCount",
-                "tot": "str"
-            }
-        ],
-        "x": 900,
-        "y": 1240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-commands",
-        "type": "switch",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Control ID",
-        "property": "controlId",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "control.80a6670211f2",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "control.e875927b3793",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "control.205ae4911ca4",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "control.2d0b9d7f8ce5",
-                "vt": "str"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 4,
-        "x": 1440,
-        "y": 140,
-        "wires": [
-            [
-                "cp3b42054acab3-write-1"
-            ],
-            [
-                "cp3b42054acab3-write-2"
-            ],
-            [
-                "cp3b42054acab3-write-3"
-            ],
-            [
-                "cp3b42054acab3-write-4"
-            ]
-        ]
-    },
-    {
-        "id": "cp3b42054acab3-router",
-        "type": "switch",
-        "z": "cp3b42054acab3-bridge",
-        "name": "Command or initial read",
-        "property": "kind",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "bound-command",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "read-all",
-                "vt": "str"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 2,
-        "x": 430,
-        "y": 150,
-        "wires": [
-            [
-                "cp3b42054acab3-commands"
-            ],
-            [
-                "cp3b42054acab3-read-1",
-                "cp3b42054acab3-read-2",
-                "cp3b42054acab3-read-3",
-                "cp3b42054acab3-read-4",
-                "cp3b42054acab3-read-5",
-                "cp3b42054acab3-meter-read-1",
-                "cp3b42054acab3-health-read-1",
-                "cp3b42054acab3-health-read-2"
-            ]
-        ]
-    },
-    {
         "id": "cp7a5f64799848-health-read-1",
         "type": "Status",
         "z": "cp7a5f64799848-bridge",
@@ -6109,6 +5324,797 @@
                 "cp7a5f64799848-meter-read-1",
                 "cp7a5f64799848-health-read-1",
                 "cp7a5f64799848-health-read-2"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-health-read-1",
+        "type": "Status",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Read availability Precis Driver //processors/1/online",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "parameter": "//processors/1/online",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1470,
+        "wires": [
+            [
+                "cp3b42054acab3-health-tag-1"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-health-watch-1",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch availability Precis Driver //processors/1/online",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "event": "//processors/1/online",
+            "eventKind": "Parameter",
+            "paramType": "Boolean",
+            "boolParamFilter": "Any",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1530,
+        "wires": [
+            [
+                "cp3b42054acab3-health-tag-1"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-health-tag-1",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify availability Precis Driver //processors/1/online",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-availability",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "Precis Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//processors/1/online",
+                "tot": "str"
+            }
+        ],
+        "x": 900,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-write-1",
+        "type": "Command",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Write Precis Driver //processors/1/channels/2/level1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "command": "//processors/1/channels/2/level1",
+            "onebased": false,
+            "cmdvalue": "Message payload"
+        },
+        "x": 1860,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-read-1",
+        "type": "Status",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Read Precis Driver //processors/1/channels/2/level1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "parameter": "//processors/1/channels/2/level1",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 530,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-1"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-watch-1",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch Precis Driver //processors/1/channels/2/level1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "event": "//processors/1/channels/2/level1",
+            "eventKind": "Parameter",
+            "paramType": "Integer",
+            "onebased": false,
+            "normalized": false
+        },
+        "x": 440,
+        "y": 590,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-1"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-tag-1",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify Precis Driver //processors/1/channels/2/level1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-feedback",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "Precis Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//processors/1/channels/2/level1",
+                "tot": "str"
+            }
+        ],
+        "x": 900,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-write-2",
+        "type": "Command",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Write Precis Driver //processors/1/channels/1/mute1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "command": "//processors/1/channels/1/mute1",
+            "onebased": false,
+            "cmdvalue": "Message payload"
+        },
+        "x": 1860,
+        "y": 230,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-read-2",
+        "type": "Status",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Read Precis Driver //processors/1/channels/1/mute1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "parameter": "//processors/1/channels/1/mute1",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 700,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-2"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-watch-2",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch Precis Driver //processors/1/channels/1/mute1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "event": "//processors/1/channels/1/mute1",
+            "eventKind": "Parameter",
+            "paramType": "Boolean",
+            "onebased": false,
+            "boolParamFilter": "Any"
+        },
+        "x": 440,
+        "y": 760,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-2"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-tag-2",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify Precis Driver //processors/1/channels/1/mute1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-feedback",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "Precis Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//processors/1/channels/1/mute1",
+                "tot": "str"
+            }
+        ],
+        "x": 900,
+        "y": 730,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-write-3",
+        "type": "Command",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Write Precis Driver //processors/1/channels/1/mute2",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "command": "//processors/1/channels/1/mute2",
+            "onebased": false,
+            "cmdvalue": "Message payload"
+        },
+        "x": 1860,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-read-3",
+        "type": "Status",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Read Precis Driver //processors/1/channels/1/mute2",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "parameter": "//processors/1/channels/1/mute2",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 870,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-3"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-watch-3",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch Precis Driver //processors/1/channels/1/mute2",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "event": "//processors/1/channels/1/mute2",
+            "eventKind": "Parameter",
+            "paramType": "Boolean",
+            "onebased": false,
+            "boolParamFilter": "Any"
+        },
+        "x": 440,
+        "y": 930,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-3"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-tag-3",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify Precis Driver //processors/1/channels/1/mute2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-feedback",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "Precis Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//processors/1/channels/1/mute2",
+                "tot": "str"
+            }
+        ],
+        "x": 900,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-write-4",
+        "type": "Command",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Write Precis Driver //processors/1/channels/1/level1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "command": "//processors/1/channels/1/level1",
+            "onebased": false,
+            "cmdvalue": "Message payload"
+        },
+        "x": 1860,
+        "y": 450,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-read-4",
+        "type": "Status",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Read Precis Driver //processors/1/channels/1/level1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "parameter": "//processors/1/channels/1/level1",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1040,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-4"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-watch-4",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch Precis Driver //processors/1/channels/1/level1",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "Precis Driver"
+            ],
+            "event": "//processors/1/channels/1/level1",
+            "eventKind": "Parameter",
+            "paramType": "Integer",
+            "onebased": false,
+            "normalized": false
+        },
+        "x": 440,
+        "y": 1100,
+        "wires": [
+            [
+                "cp3b42054acab3-tag-4"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-tag-4",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify Precis Driver //processors/1/channels/1/level1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-feedback",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "Precis Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//processors/1/channels/1/level1",
+                "tot": "str"
+            }
+        ],
+        "x": 900,
+        "y": 1070,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-health-read-2",
+        "type": "Status",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Read availability BLU-806 HiQnet Driver //online",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "BLU-806 HiQnet Driver"
+            ],
+            "parameter": "//online",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1640,
+        "wires": [
+            [
+                "cp3b42054acab3-health-tag-2"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-health-watch-2",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch availability BLU-806 HiQnet Driver //online",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "BLU-806 HiQnet Driver"
+            ],
+            "event": "//online",
+            "eventKind": "Parameter",
+            "paramType": "Boolean",
+            "boolParamFilter": "Any",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1700,
+        "wires": [
+            [
+                "cp3b42054acab3-health-tag-2"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-health-tag-2",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify availability BLU-806 HiQnet Driver //online",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-availability",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "BLU-806 HiQnet Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//online",
+                "tot": "str"
+            }
+        ],
+        "x": 900,
+        "y": 1670,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-meter-read-1",
+        "type": "Status",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Read meter manifest BLU-806 HiQnet Driver",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "BLU-806 HiQnet Driver"
+            ],
+            "parameter": "//manifest",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1160,
+        "wires": [
+            [
+                "cp3b42054acab3-meter-manifest-1-tag"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-meter-manifest-1",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch meter manifest BLU-806 HiQnet Driver blu806/meters",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "BLU-806 HiQnet Driver"
+            ],
+            "event": "//manifest",
+            "eventKind": "Parameter",
+            "paramType": "String",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1220,
+        "wires": [
+            [
+                "cp3b42054acab3-meter-manifest-1-tag"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-meter-manifest-1-tag",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify meter manifest BLU-806 HiQnet Driver",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-meter-manifest",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "BLU-806 HiQnet Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//manifest",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "streamId",
+                "pt": "msg",
+                "to": "blu806/meters",
+                "tot": "str"
+            }
+        ],
+        "x": 1000,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-meter-frame-1",
+        "type": "Event",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Watch meter frame BLU-806 HiQnet Driver blu806/meters",
+        "mojo": {
+            "version": "1.0",
+            "device": [
+                "BLU-806 HiQnet Driver"
+            ],
+            "event": "//frame",
+            "eventKind": "Event",
+            "paramType": "String",
+            "onebased": false
+        },
+        "x": 440,
+        "y": 1360,
+        "wires": [
+            [
+                "cp3b42054acab3-meter-frame-1-tag"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-meter-frame-1-tag",
+        "type": "change",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Identify meter frame BLU-806 HiQnet Driver",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kind",
+                "pt": "msg",
+                "to": "device-meter-frame",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "BLU-806 HiQnet Driver",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "path",
+                "pt": "msg",
+                "to": "//frame",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "streamId",
+                "pt": "msg",
+                "to": "blu806/meters",
+                "tot": "str"
+            }
+        ],
+        "x": 1000,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-commands",
+        "type": "switch",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Control ID",
+        "property": "controlId",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "control.80a6670211f2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "control.e875927b3793",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "control.205ae4911ca4",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "control.2d0b9d7f8ce5",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 1440,
+        "y": 140,
+        "wires": [
+            [
+                "cp3b42054acab3-write-1"
+            ],
+            [
+                "cp3b42054acab3-write-2"
+            ],
+            [
+                "cp3b42054acab3-write-3"
+            ],
+            [
+                "cp3b42054acab3-write-4"
+            ]
+        ]
+    },
+    {
+        "id": "cp3b42054acab3-router",
+        "type": "switch",
+        "z": "cp3b42054acab3-bridge",
+        "name": "Command or initial read",
+        "property": "kind",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "bound-command",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "read-all",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 150,
+        "wires": [
+            [
+                "cp3b42054acab3-commands"
+            ],
+            [
+                "cp3b42054acab3-read-1",
+                "cp3b42054acab3-read-2",
+                "cp3b42054acab3-read-3",
+                "cp3b42054acab3-read-4",
+                "cp3b42054acab3-meter-read-1",
+                "cp3b42054acab3-health-read-1",
+                "cp3b42054acab3-health-read-2"
             ]
         ]
     },
@@ -13961,12 +13967,12 @@
         "z": "cp_room01_binding_tab",
         "name": "Controller",
         "mojo": {
-            "controller": "192.168.1.5:443",
-            "protocol": "https",
-            "host": "192.168.1.5",
-            "port": 443,
+            "controller": "10.213.129.91:8080",
+            "protocol": "http",
+            "host": "10.213.129.91",
+            "port": 8080,
             "username": "admin",
-            "password": "password"
+            "password": "pass"
         },
         "x": 1060,
         "y": 280,
@@ -14016,10 +14022,10 @@
         "height": 0,
         "head": "",
         "format": "<template>\n  <div class=\"rc-demo\">\n    <header class=\"rc-header\">\n      <div class=\"rc-brand\"><v-icon icon=\"mdi-floor-plan\" size=\"28\"></v-icon>\n        <div><strong>SPACE / 01</strong><small>WORKPLACE CONTROL</small></div>\n      </div>\n      <div class=\"rc-online\"><span></span>ROOM 01 <time>{{ clock }}</time></div>\n    </header>\n    <div class=\"rc-title\">\n      <div>\n        <p>总部 · 三层 · 东区</p>\n        <h1>云端会议室</h1>\n      </div>\n      <div class=\"rc-occupancy\"><v-icon icon=\"mdi-account-group-outline\"></v-icon> 8 人空间 <span>可使用</span></div>\n    </div>\n    <nav class=\"rc-tabs\" aria-label=\"区域内导航\"><button v-for=\"page in pages\" :key=\"page.id\" :class=\"{active: activePage === page.id}\" :aria-current=\"activePage === page.id ? 'page' : undefined\" @click=\"activePage = page.id\"><v-icon :icon=\"page.icon\" size=\"20\"></v-icon>{{ page.label }}</button></nav>\n    <div class=\"rc-workspace\" :key=\"activePage\" :class=\"'rc-page-' + activePage\">\n      <section class=\"rc-space\">\n        <div class=\"rc-room\" :class=\"{ 'rc-screen-off': !display, 'rc-muted': muted }\"\n          :style=\"{ '--light': light / 100, '--curtain': curtains / 100 }\">\n          <img class=\"rc-photo\"\n            src=\"https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=85\"\n            alt=\"明亮的现代办公会议空间\" />\n          <div class=\"rc-shade\"></div>\n          <div class=\"rc-blinds\"></div>\n          <div class=\"rc-room-top\"><span><i></i> {{ pages.find(p => p.id === activePage).label }}</span><span>{{ sceneLabel }}</span></div>\n          <div class=\"rc-window-label\"><v-icon icon=\"mdi-blinds-horizontal\" size=\"16\"></v-icon> 窗帘 {{ curtains }}%</div>\n          <div class=\"rc-screen\"><v-icon :icon=\"display ? 'mdi-cast-connected' : 'mdi-monitor-off'\"\n              size=\"26\"></v-icon><strong>{{ display ? source : '屏幕待机' }}</strong><span>{{ display ? '准备共享内容' : '等待唤醒' }}</span>\n          </div>\n          <div class=\"rc-room-bottom\">\n            <div><small>当前场景</small>\n              <h2>{{ activePage === 'audio' ? (muted ? '输出已静音' : '音量 ' + volume + '%') : activePage === 'video' ? source : activePage === 'environment' ? '灯光 ' + light + '%' : sceneLabel }}</h2>\n            </div>\n            <div class=\"rc-wave\" aria-label=\"模拟音频电平\"><i v-for=\"n in 15\" :key=\"n\"\n                :style=\"{ '--i': n, animationDelay: (-n * .19) + 's' }\"></i></div>\n          </div>\n        </div>\n        <div class=\"rc-environment\" v-if=\"activePage === 'home' || activePage === 'environment'\">\n          <div><v-icon icon=\"mdi-thermometer\"></v-icon><span>室内温度<strong>{{ temperature.toFixed(1) }}<small>\n                  °C</small></strong></span></div>\n          <div><v-icon icon=\"mdi-water-percent\"></v-icon><span>相对湿度<strong>46<small> %</small></strong></span></div>\n          <div><v-icon icon=\"mdi-leaf\"></v-icon><span>空气质量<strong>优<small> · 428 ppm</small></strong></span></div>\n        </div>\n        <div class=\"rc-section-title\" v-if=\"activePage === 'home'\">\n          <h2>场景预设</h2><span>一键准备空间</span>\n        </div>\n        <div class=\"rc-scenes\" v-if=\"activePage === 'home'\"><button v-for=\"s in scenes\" :key=\"s.id\" :class=\"{ active: scene === s.id }\"\n            @click=\"scene = s.id\"><v-icon :icon=\"s.icon\"></v-icon><strong>{{ s.label }}</strong><small>{{ s.note\n              }}</small><v-icon v-if=\"scene === s.id\" class=\"rc-check\" icon=\"mdi-check-circle\" size=\"16\"></v-icon></button>\n        </div>\n      </section>\n      <aside class=\"rc-controls\">\n        <div class=\"rc-section-title\">\n          <h2>{{ pages.find(p => p.id === activePage).label === '首页' ? '空间状态' : pages.find(p => p.id === activePage).label + '控制' }}</h2><v-icon icon=\"mdi-tune-variant\" size=\"20\"></v-icon>\n        </div>\n        <div class=\"rc-devices\" v-if=\"activePage === 'home'\">\n          <div v-for=\"d in devices\" :key=\"d.name\"><v-icon :icon=\"d.icon\"></v-icon><span>{{ d.name }}<small>{{ d.detail }}</small></span><b :class=\"{ standby: !d.on }\">{{ d.on ? '就绪' : '待机' }}</b></div>\n        </div>\n        <div class=\"rc-control-block\" v-if=\"activePage === 'video'\">\n          <div class=\"rc-row\">\n            <div><v-icon icon=\"mdi-monitor\"></v-icon><strong>会议显示</strong></div><input id=\"room01-display\" class=\"rc-switch\" type=\"checkbox\" aria-label=\"会议显示电源\" v-model=\"display\" />\n          </div><label class=\"rc-label\">信号源</label><select id=\"room01-source\" v-model=\"source\" aria-label=\"信号源\">\n            <option>无线投屏</option>\n            <option>HDMI 1</option>\n            <option>HDMI 2</option>\n            <option>视频会议</option>\n          </select>\n        </div>\n        <div class=\"rc-control-block\" v-if=\"activePage === 'audio'\">\n          <div class=\"rc-row\">\n            <div><v-icon icon=\"mdi-volume-high\"></v-icon><strong>主音量</strong></div><b>{{ volume }}<small> %</small></b>\n          </div><input id=\"room01-volume\" v-model.number=\"volume\" type=\"range\" min=\"0\" max=\"100\" aria-label=\"主音量\" :style=\"rangeStyle(volume)\" />\n          <div class=\"rc-row rc-subrow\"><span>扬声器输出</span><button id=\"room01-mute\" type=\"button\" class=\"rc-icon-button\" :class=\"{ selected: muted }\"\n              :title=\"muted ? '取消静音' : '静音'\" :aria-label=\"muted ? '取消静音' : '静音'\" :aria-pressed=\"muted\"\n              ><v-icon :icon=\"muted ? 'mdi-volume-off' : 'mdi-volume-high'\" size=\"20\"></v-icon></button>\n          </div>\n        </div>\n        <div class=\"rc-control-block\" v-if=\"activePage === 'audio'\">\n          <div class=\"rc-row\">\n            <div><v-icon icon=\"mdi-volume-high\"></v-icon><strong>主音量 2</strong></div><b>{{ volume2 }}<small> %</small></b>\n          </div><input id=\"room01-volume2\" v-model.number=\"volume2\" type=\"range\" min=\"0\" max=\"100\" aria-label=\"主音量 2\" :style=\"rangeStyle(volume2)\" />\n          <div class=\"rc-row rc-subrow\"><span>扬声器输出 2</span><button id=\"room01-mute2\" type=\"button\" class=\"rc-icon-button\" :class=\"{ selected: muted2 }\"\n              :title=\"muted2 ? '取消静音' : '静音'\" :aria-label=\"muted2 ? '取消静音 2' : '静音 2'\" :aria-pressed=\"muted2\"\n              ><v-icon :icon=\"muted2 ? 'mdi-volume-off' : 'mdi-volume-high'\" size=\"20\"></v-icon></button>\n          </div>\n        </div>\n        <div class=\"rc-control-block\" v-if=\"activePage === 'environment'\">\n          <div class=\"rc-row\">\n            <div><v-icon icon=\"mdi-lightbulb-outline\"></v-icon><strong>环境灯光</strong></div><b>{{ light }}<small> %</small></b>\n          </div><input id=\"room01-light\" v-model.number=\"light\" type=\"range\" min=\"0\" max=\"100\" aria-label=\"灯光亮度\" :style=\"rangeStyle(light)\" />\n          <div class=\"rc-scale\"><span>柔和</span><span>明亮</span></div>\n        </div>\n        <div class=\"rc-control-block\" v-if=\"activePage === 'environment'\">\n          <div class=\"rc-row\">\n            <div><v-icon icon=\"mdi-blinds-horizontal\"></v-icon><strong>窗帘开度</strong></div><b>{{ curtains }}<small>\n                %</small></b>\n          </div><input id=\"room01-curtains\" v-model.number=\"curtains\" type=\"range\" min=\"0\" max=\"100\" aria-label=\"窗帘开度\" :style=\"rangeStyle(curtains)\" />\n          <div class=\"rc-scale\"><span>关闭</span><span>全开</span></div>\n        </div>\n        <div class=\"rc-control-block\" v-if=\"activePage === 'environment'\">\n          <div class=\"rc-row\">\n            <div><v-icon icon=\"mdi-air-conditioner\"></v-icon><strong>目标温度</strong></div>\n            <div class=\"rc-stepper\"><button class=\"rc-icon-button\" title=\"降低温度\" aria-label=\"降低温度\"\n                :disabled=\"temperature <= 16\" @click=\"temperature = Math.max(16, temperature - 0.5)\"><v-icon icon=\"mdi-minus\"\n                  size=\"18\"></v-icon></button><b>{{ temperature.toFixed(1) }}°</b><button class=\"rc-icon-button\" title=\"升高温度\"\n                aria-label=\"升高温度\" :disabled=\"temperature >= 30\" @click=\"temperature = Math.min(30, temperature + 0.5)\"><v-icon icon=\"mdi-plus\"\n                  size=\"18\"></v-icon></button></div>\n          </div>\n        </div>\n        <div class=\"rc-session\" v-if=\"activePage === 'home'\">\n          <div><span>会议状态</span><strong>{{ meeting ? '会议进行中' : '准备就绪' }}</strong></div><button\n            id=\"room01-meeting\" type=\"button\" :aria-pressed=\"meeting\"><v-icon :icon=\"meeting ? 'mdi-stop' : 'mdi-play'\" size=\"18\"></v-icon>{{ meeting ? '结束会议' :\n            '开始会议' }}</button>\n        </div>\n      </aside>\n      <aside class=\"rc-volume-rail\" :class=\"{ 'rc-volume-rail--inactive': activePage !== 'audio' }\"\n        :aria-hidden=\"activePage !== 'audio'\" aria-label=\"音量指示\">\n        <div class=\"rc-volume-meter\">\n          <span class=\"rc-volume-meter-label\">L1</span>\n          <meter id=\"room01-volume-meter-1\" :value=\"meter1\" min=\"0\" max=\"100\" aria-label=\"实时信号电平 L1\"></meter>\n          <strong data-display-only=\"true\">{{ Math.round(meter1) }}<small>%</small></strong>\n        </div>\n        <div class=\"rc-volume-meter\">\n          <span class=\"rc-volume-meter-label\">L2</span>\n          <meter id=\"room01-volume-meter-2\" :value=\"meter2\" min=\"0\" max=\"100\" aria-label=\"实时信号电平 L2\"></meter>\n          <strong data-display-only=\"true\">{{ Math.round(meter2) }}<small>%</small></strong>\n        </div>\n      </aside>\n    </div>\n    <footer class=\"rc-footer\"><span><v-icon icon=\"mdi-shield-check-outline\" size=\"16\"></v-icon> ROOM 01</span><button\n        type=\"button\" @click=\"reset\"><v-icon icon=\"mdi-refresh\" size=\"16\"></v-icon>重置场景</button></footer>\n    <transition name=\"rc-toast\">\n      <div v-if=\"notice\" class=\"rc-toast-message\" role=\"status\"><v-icon icon=\"mdi-check-circle\" size=\"19\"></v-icon>{{ notice }}\n      </div>\n    </transition>\n  </div>\n</template>\n<script>\nexport default {\n  data () {\n    return {\n      clock: '', scene: 'custom', display: false, source: '无线投屏',\n      volume: 0, muted: false, volume2: 0, muted2: false,\n      meter1: 0, meter2: 0,\n      light: 0, curtains: 0, temperature: 23, meeting: false,\n      notice: '', clockTimer: null, noticeTimer: null, activePage: 'home',\n      pages: [\n        { id: 'home', label: '首页', icon: 'mdi-home-outline' },\n        { id: 'audio', label: '音频', icon: 'mdi-volume-high' },\n        { id: 'video', label: '视频', icon: 'mdi-monitor' },\n        { id: 'environment', label: '环境', icon: 'mdi-lightbulb-outline' }\n      ],\n      scenes: [\n        { id: 'meeting', label: '日常会议', note: '明亮 · 协作', icon: 'mdi-account-group-outline' },\n        { id: 'present', label: '演示汇报', note: '聚焦 · 分享', icon: 'mdi-presentation' },\n        { id: 'video', label: '远程会议', note: '清晰 · 连接', icon: 'mdi-video-outline' },\n        { id: 'relax', label: '休息模式', note: '舒缓 · 放松', icon: 'mdi-coffee-outline' }\n      ]\n    }\n  },\n  computed: {\n    sceneLabel () {\n      return this.scenes.find(item => item.id === this.scene)?.label || '自定义场景'\n    },\n    devices () {\n      return [\n        { name: '会议显示屏', detail: this.source, icon: 'mdi-monitor', on: this.display },\n        { name: '音频处理器', detail: this.muted ? '输出已静音' : '立体声 · 自动混音', icon: 'mdi-waveform', on: !this.muted },\n        { name: '会议摄像机', detail: '自动取景', icon: 'mdi-video-outline', on: this.meeting },\n        { name: '环境控制', detail: '灯光 / 窗帘 / 空调', icon: 'mdi-home-automation', on: this.light > 0 }\n      ]\n    }\n  },\n  methods: {\n    rangeStyle (value) {\n      return { background: 'linear-gradient(to right, #147d70 ' + value + '%, #dce3df ' + value + '%)' }\n    },\n    reset () {\n      this.scene = 'custom'\n      this.notice = '已重置页面'\n      clearTimeout(this.noticeTimer)\n      this.noticeTimer = setTimeout(() => { this.notice = '' }, 2400)\n    },\n    tick () {\n      this.clock = new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })\n    }\n  },\n  mounted () {\n    this.tick()\n    this.clockTimer = setInterval(() => this.tick(), 1000)\n  },\n  unmounted () {\n    clearInterval(this.clockTimer)\n    clearTimeout(this.noticeTimer)\n  }\n}\n</script>\n<style>\n.rc-demo {\n  --ink: #20312e;\n  --green: #147d70;\n  --line: #dfe6e2;\n  color: var(--ink);\n  background: #d2ffd2;\n  font-family: Inter, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;\n  padding: 24px 32px;\n  max-width: 1500px;\n  margin: auto;\n  letter-spacing: 0;\n  font-size: 14px\n}\n\n.rc-demo * {\n  box-sizing: border-box;\n  letter-spacing: 0\n}\n\n.rc-demo button,\n.rc-demo input,\n.rc-demo select {\n  font: inherit\n}\n\n.rc-demo button {\n  cursor: pointer\n}\n\n.rc-demo button:focus-visible,\n.rc-demo input:focus-visible,\n.rc-demo select:focus-visible {\n  outline: 3px solid #36a99a;\n  outline-offset: 4px\n}\n\n.rc-demo button:disabled {\n  opacity: .4;\n  cursor: default\n}\n\n.rc-header,\n.rc-title,\n.rc-row,\n.rc-section-title,\n.rc-footer {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 12px\n}\n\n.rc-header {\n  padding-bottom: 20px;\n  border-bottom: 1px solid var(--line)\n}\n\n.rc-brand {\n  display: flex;\n  gap: 12px;\n  align-items: center\n}\n\n.rc-brand strong {\n  display: block;\n  font-size: 17px\n}\n\n.rc-brand small {\n  display: block;\n  font-size: 9px;\n  color: #72807a;\n  margin-top: 3px\n}\n\n.rc-online {\n  display: flex;\n  gap: 9px;\n  align-items: center;\n  color: #66766e;\n  font-size: 12px\n}\n\n.rc-online>span,\n.rc-room-top i {\n  width: 6px;\n  height: 6px;\n  background: #4fc8a0;\n  border-radius: 50%;\n  display: inline-block\n}\n\n.rc-online time {\n  font-size: 18px;\n  font-variant-numeric: tabular-nums;\n  margin-left: 20px;\n  color: var(--ink)\n}\n\n.rc-title {\n  padding: 24px 0\n}\n\n.rc-title p {\n  color: #74817a;\n  font-size: 12px;\n  margin: 0 0 6px\n}\n\n.rc-title h1 {\n  font-size: 28px;\n  line-height: 1.3;\n  margin: 0;\n  font-weight: 650\n}\n\n.rc-occupancy {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 12px;\n  color: #738079\n}\n\n.rc-occupancy span {\n  color: #147d70;\n  margin-left: 10px\n}\n\n.rc-workspace {\n  display: grid;\n  grid-template-columns: minmax(0, 1.8fr) minmax(300px, 1fr);\n  gap: 30px\n}\n\n.rc-space {\n  min-width: 0\n}\n\n.rc-room {\n  position: relative;\n  aspect-ratio: 16/9;\n  min-height: 260px;\n  overflow: hidden;\n  background: #263c3a;\n  color: white;\n  border-radius: 6px;\n  isolation: isolate\n}\n\n.rc-photo {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  inset: 0;\n  object-fit: cover;\n  filter: brightness(calc(.35 + var(--light)*.65));\n  transition: filter 1.3s, transform 6s;\n  transform: scale(1.025)\n}\n\n.rc-room:hover .rc-photo {\n  transform: scale(1.06)\n}\n\n.rc-shade {\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(180deg, rgba(8, 22, 19, .3), transparent 40%, rgba(8, 22, 19, .85))\n}\n\n.rc-blinds {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 42%;\n  height: 65%;\n  background: repeating-linear-gradient(0deg, rgba(26, 45, 39, .68) 0 8px, rgba(153, 168, 148, .42) 8px 10px);\n  transform: scaleY(calc(1 - var(--curtain)));\n  transform-origin: top;\n  transition: transform 1.5s ease-in-out\n}\n\n.rc-room-top {\n  position: absolute;\n  top: 20px;\n  left: 22px;\n  right: 22px;\n  display: flex;\n  justify-content: space-between;\n  gap: 12px;\n  font-size: 10px\n}\n\n.rc-room-top i {\n  margin-right: 6px\n}\n\n.rc-window-label {\n  position: absolute;\n  top: 28%;\n  left: 22px;\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  background: #142a2770;\n  padding: 6px 9px;\n  border-radius: 4px;\n  font-size: 11px\n}\n\n.rc-screen {\n  position: absolute;\n  right: 12%;\n  top: 27%;\n  width: 30%;\n  height: 36%;\n  background: #132925e8;\n  border: 1px solid #92b5a580;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 6px;\n  box-shadow: 0 12px 28px #0003;\n  transition: background 1s, color 1s;\n  color: #e5fff3\n}\n\n.rc-screen strong {\n  font-size: 13px\n}\n\n.rc-screen span {\n  font-size: 9px;\n  color: #b5cfc6\n}\n\n.rc-screen-off .rc-screen {\n  background: #242928;\n  color: #7b8783\n}\n\n.rc-room-bottom {\n  position: absolute;\n  bottom: 24px;\n  left: 24px;\n  right: 24px;\n  display: flex;\n  justify-content: space-between;\n  align-items: end\n}\n\n.rc-room-bottom small {\n  font-size: 11px;\n  color: #c4d2cb\n}\n\n.rc-room-bottom h2 {\n  margin: 5px 0 0;\n  font-size: 23px\n}\n\n.rc-wave {\n  display: flex;\n  align-items: center;\n  height: 30px;\n  gap: 3px\n}\n\n.rc-wave i {\n  width: 3px;\n  height: 24px;\n  background: #8ae5c1;\n  transform-origin: center;\n  animation: rc-level 1.2s ease-in-out infinite alternate\n}\n\n.rc-muted .rc-wave i {\n  animation-play-state: paused;\n  transform: scaleY(.12);\n  background: #a8b5ad\n}\n\n.rc-environment {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  padding: 20px 0;\n  border-bottom: 1px solid var(--line);\n  gap: 10px\n}\n\n.rc-environment>div {\n  display: flex;\n  gap: 10px;\n  align-items: center\n}\n\n.rc-environment .v-icon {\n  color: #70847a\n}\n\n.rc-environment span {\n  font-size: 11px;\n  color: #718179\n}\n\n.rc-environment strong {\n  display: block;\n  margin-top: 4px;\n  font-size: 23px;\n  color: var(--ink);\n  font-weight: 550\n}\n\n.rc-environment small {\n  font-size: 11px;\n  font-weight: 400;\n  color: #6f7d75\n}\n\n.rc-section-title {\n  margin: 22px 0 15px\n}\n\n.rc-section-title h2 {\n  font-size: 15px;\n  margin: 0;\n  font-weight: 650\n}\n\n.rc-section-title>span {\n  font-size: 11px;\n  color: #87918b\n}\n\n.rc-scenes {\n  display: grid;\n  grid-template-columns: repeat(4, minmax(0, 1fr));\n  gap: 10px\n}\n\n.rc-scenes button {\n  text-align: left;\n  position: relative;\n  background: #fff;\n  border: 1px solid var(--line);\n  border-radius: 6px;\n  padding: 15px 12px;\n  min-height: 106px;\n  transition: background .25s, border-color .25s, transform .25s\n}\n\n.rc-scenes button:hover {\n  transform: translateY(-2px);\n  border-color: #8aa99b\n}\n\n.rc-scenes button.active {\n  background: #e6f1e9;\n  border-color: #83ad95\n}\n\n.rc-scenes button>.v-icon {\n  color: #527263;\n  margin-bottom: 10px\n}\n\n.rc-scenes strong,\n.rc-scenes small {\n  display: block\n}\n\n.rc-scenes strong {\n  font-size: 13px\n}\n\n.rc-scenes small {\n  font-size: 10px;\n  color: #7b897f;\n  margin-top: 5px\n}\n\n.rc-scenes .rc-check {\n  position: absolute;\n  right: 8px;\n  top: 10px;\n  color: #147d70\n}\n\n.rc-devices {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 0 20px\n}\n\n.rc-devices>div {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  min-width: 0;\n  padding: 13px 0;\n  border-bottom: 1px solid var(--line)\n}\n\n.rc-devices>div>.v-icon {\n  color: #708278;\n  font-size: 21px\n}\n\n.rc-devices span {\n  font-size: 12px;\n  flex: 1\n}\n\n.rc-devices small {\n  display: block;\n  font-size: 10px;\n  color: #859188;\n  margin-top: 4px\n}\n\n.rc-devices b {\n  font-size: 10px;\n  font-weight: 500;\n  color: #147d70\n}\n\n.rc-devices b.standby {\n  color: #9b8753\n}\n\n.rc-controls {\n  border-left: 1px solid var(--line);\n  padding-left: 28px\n}\n\n.rc-controls>.rc-section-title {\n  margin-top: 0\n}\n\n.rc-control-block {\n  padding: 15px 0;\n  border-bottom: 1px solid var(--line)\n}\n\n.rc-row>div:first-child {\n  display: flex;\n  align-items: center;\n  gap: 10px\n}\n\n.rc-row .v-icon {\n  color: #71847a\n}\n\n.rc-row strong {\n  font-size: 13px;\n  font-weight: 550\n}\n\n.rc-row>b {\n  font-size: 19px;\n  font-weight: 550;\n  font-variant-numeric: tabular-nums\n}\n\n.rc-row b small {\n  font-size: 11px;\n  color: #8a968f\n}\n\n.rc-switch {\n  flex: 0 0 auto;\n  appearance: none;\n  width: 40px;\n  height: 22px;\n  border-radius: 11px;\n  background: #aab8b0;\n  cursor: pointer;\n  position: relative;\n}\n.rc-switch::after {\n  content: '';\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #fff;\n  transition: transform .2s;\n}\n.rc-switch:checked { background: #147d70; }\n.rc-switch:checked::after { transform: translateX(18px); }\n\n.rc-label {\n  display: block;\n  font-size: 11px;\n  color: #839088;\n  margin: 6px 0 8px\n}\n\n.rc-demo select {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--line);\n  border-radius: 4px;\n  appearance: auto;\n  background: #fff;\n  color: var(--ink);\n  font-size: 12px\n}\n\n.rc-demo select:disabled {\n  opacity: .45\n}\n\n.rc-demo input[type=range] {\n  appearance: none;\n  width: 100%;\n  height: 4px;\n  border-radius: 2px;\n  display: block;\n  margin: 22px 0 13px;\n  cursor: pointer\n}\n\n.rc-demo input[type=range]::-webkit-slider-thumb {\n  appearance: none;\n  width: 16px;\n  height: 16px;\n  background: white;\n  border: 3px solid #147d70;\n  border-radius: 50%;\n  box-shadow: 0 1px 4px #0002\n}\n\n.rc-demo input[type=range]::-moz-range-thumb {\n  width: 12px;\n  height: 12px;\n  background: white;\n  border: 3px solid #147d70;\n  border-radius: 50%\n}\n\n.rc-scale,\n.rc-subrow {\n  display: flex;\n  justify-content: space-between;\n  color: #839088;\n  font-size: 10px\n}\n\n.rc-icon-button {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 30px;\n  height: 30px;\n  border: 1px solid var(--line);\n  background: white;\n  border-radius: 4px\n}\n\n.rc-icon-button.selected {\n  background: #e6f1e9;\n  border-color: #147d70\n}\n\n.rc-stepper {\n  display: flex;\n  align-items: center;\n  gap: 9px\n}\n\n.rc-stepper b {\n  font-size: 17px;\n  min-width: 44px;\n  text-align: center\n}\n\n.rc-session {\n  margin-top: 22px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 10px\n}\n\n.rc-session span {\n  display: block;\n  font-size: 10px;\n  color: #859189\n}\n\n.rc-session strong {\n  display: block;\n  font-size: 13px;\n  margin-top: 4px\n}\n\n.rc-session button {\n  background: #147d70;\n  color: white;\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  border-radius: 4px;\n  padding: 11px 14px;\n  font-size: 12px\n}\n\n.rc-footer {\n  margin-top: 28px;\n  padding-top: 17px;\n  border-top: 1px solid var(--line);\n  color: #8b968f;\n  font-size: 10px\n}\n\n.rc-footer>span,\n.rc-footer button {\n  display: flex;\n  align-items: center;\n  gap: 6px\n}\n\n.rc-footer button {\n  color: #59766a\n}\n\n.rc-toast-message {\n  position: fixed;\n  z-index: 999;\n  bottom: 30px;\n  left: 50%;\n  transform: translateX(-50%);\n  max-width: calc(100vw - 32px);\n  padding: 13px 22px;\n  background: #1e3c32;\n  color: white;\n  box-shadow: 0 8px 28px #0003;\n  border-radius: 6px;\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-size: 13px\n}\n\n.rc-toast-enter-active,\n.rc-toast-leave-active {\n  transition: opacity .2s, margin .2s\n}\n\n.rc-toast-enter-from,\n.rc-toast-leave-to {\n  opacity: 0;\n  margin-bottom: -8px\n}\n\n@keyframes rc-level {\n  0% {\n    transform: scaleY(.2)\n  }\n\n  100% {\n    transform: scaleY(.95)\n  }\n}\n\n@media(max-width:1000px) {\n  .rc-demo {\n    padding: 20px\n  }\n\n  .rc-workspace {\n    grid-template-columns: minmax(0, 1.4fr) minmax(260px, 1fr);\n    gap: 20px\n  }\n\n  .rc-controls {\n    padding-left: 20px\n  }\n\n  .rc-scenes {\n    grid-template-columns: 1fr 1fr\n  }\n\n  .rc-environment>div {\n    gap: 5px\n  }\n\n  .rc-environment strong {\n    font-size: 19px\n  }\n}\n\n@media(max-width:720px) {\n  .rc-demo {\n    padding: 16px\n  }\n\n  .rc-workspace {\n    grid-template-columns: 1fr\n  }\n\n  .rc-controls {\n    padding: 20px 0 0;\n    border-left: 0;\n    border-top: 1px solid var(--line)\n  }\n\n  .rc-title h1 {\n    font-size: 24px\n  }\n\n  .rc-occupancy {\n    display: none\n  }\n\n  .rc-room {\n    min-height: 240px\n  }\n\n  .rc-online time {\n    margin-left: 3px\n  }\n\n  .rc-brand strong {\n    font-size: 14px\n  }\n\n  .rc-brand small {\n    font-size: 8px\n  }\n\n  .rc-room-top {\n    left: 16px;\n    right: 16px\n  }\n\n  .rc-devices {\n    gap: 0 12px\n  }\n\n  .rc-environment strong {\n    font-size: 18px\n  }\n\n  .rc-environment>div>.v-icon {\n    font-size: 19px\n  }\n\n  .rc-footer {\n    align-items: flex-start\n  }\n\n  .rc-footer>span {\n    max-width: 70%\n  }\n\n  .rc-footer button {\n    white-space: nowrap\n  }\n}\n\n@media(prefers-reduced-motion:reduce) {\n  .rc-demo * {\n    animation: none !important;\n    transition: none !important\n  }\n}\n.rc-demo{width:100%;height:100dvh;max-width:1500px;margin:0 auto;padding:18px 28px;display:flex;flex-direction:column;overflow:hidden}\n.rc-demo .rc-header{flex:none;padding-bottom:12px}.rc-demo .rc-title{flex:none;padding:15px 0}.rc-demo .rc-title h1{font-size:25px}\n.rc-tabs{display:flex;gap:8px;flex:none;border-bottom:1px solid var(--line);margin-bottom:18px;padding-bottom:10px}\n.rc-tabs button{display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 22px;border-radius:4px;color:#657b6f;min-height:44px}\n.rc-tabs button.active{background:#147d70;color:white}.rc-tabs button:hover{background:#147d7020}.rc-tabs button.active:hover{background:#126e63}\n.rc-demo .rc-workspace{flex:1;min-height:0;grid-template-columns:minmax(0,1.65fr) minmax(285px,1fr);animation:rc-page-in .25s ease-out}\n.rc-demo .rc-space{display:flex;flex-direction:column;min-height:0}.rc-demo .rc-room{flex:1;min-height:0;aspect-ratio:auto}\n.rc-demo .rc-controls{min-height:0;display:flex;flex-direction:column}.rc-demo .rc-controls .rc-devices{grid-template-columns:1fr}.rc-demo .rc-devices>div{padding:17px 0}\n.rc-demo .rc-session{margin-top:auto;padding-top:15px}.rc-demo .rc-environment{flex:none;padding:12px 0}.rc-demo .rc-environment strong{font-size:20px}\n.rc-demo .rc-section-title{flex:none;margin:12px 0}.rc-demo .rc-controls>.rc-section-title{margin-top:0}.rc-demo .rc-scenes{flex:none;grid-template-columns:repeat(4,minmax(0,1fr))}\n.rc-demo .rc-scenes button{min-height:88px;padding:10px}.rc-demo .rc-scenes button>.v-icon{margin-bottom:6px}\n.rc-demo .rc-footer{flex:none;margin-top:15px;padding-top:10px}.rc-demo .rc-control-block{padding:20px 0}.rc-demo .rc-page-environment .rc-control-block{padding:14px 0}\n.rc-demo .rc-icon-button{width:44px;height:44px}.rc-demo select{min-height:44px}.rc-demo input[type=range]{height:7px;margin:27px 0 22px}\n.rc-demo input[type=range]::-webkit-slider-thumb{width:24px;height:24px}.rc-demo .rc-row>b{font-size:28px}\n@keyframes rc-page-in{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}\n@media(min-width:721px) and (max-height:760px){.rc-demo{padding:12px 22px}.rc-demo .rc-header{padding-bottom:8px}.rc-demo .rc-title{padding:9px 0}.rc-demo .rc-tabs{margin-bottom:12px;padding-bottom:6px}.rc-demo .rc-environment{padding:8px 0}.rc-demo .rc-scenes button{min-height:78px}.rc-demo .rc-devices>div{padding:12px 0}.rc-demo .rc-page-environment .rc-control-block{padding:8px 0}.rc-demo .rc-footer{margin-top:10px}.rc-demo .rc-room-bottom{bottom:16px}}\n@media(min-width:721px) and (max-width:900px){.rc-demo{padding:16px}.rc-demo .rc-workspace{grid-template-columns:minmax(0,1.2fr) minmax(260px,1fr);gap:16px}.rc-demo .rc-controls{padding-left:16px}.rc-demo .rc-scenes{grid-template-columns:repeat(2,minmax(0,1fr))}.rc-demo .rc-environment{gap:6px}.rc-demo .rc-environment>div>.v-icon{display:none}.rc-demo .rc-environment strong{font-size:18px}}\n@media(max-width:720px){.rc-demo{height:auto;min-height:100dvh;overflow:visible;padding:16px}.rc-demo .rc-workspace{display:flex;flex-direction:column;flex:none;gap:20px}.rc-demo .rc-room{min-height:250px;flex:none}.rc-demo .rc-controls{padding:18px 0 0;border-left:0;border-top:1px solid var(--line)}.rc-demo .rc-scenes{grid-template-columns:1fr 1fr}.rc-demo .rc-tabs{gap:2px;justify-content:space-between}.rc-tabs button{padding:10px 8px;flex:1;font-size:12px;gap:4px}.rc-demo .rc-online{font-size:10px;gap:5px}.rc-demo .rc-online time{display:none}.rc-demo .rc-session{margin-top:15px}.rc-demo .rc-footer{margin-top:20px}.rc-demo .rc-space{flex:none}}\n.rc-demo .rc-workspace{grid-template-columns:minmax(0,1.48fr) minmax(300px,1fr) minmax(78px,92px);column-gap:24px}\n.rc-volume-rail{min-width:0;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:center;gap:14px;padding:10px 8px;border-left:1px solid var(--line);border-right:1px solid var(--line);transition:opacity .2s ease}\n.rc-volume-rail--inactive{visibility:hidden;pointer-events:none}\n.rc-volume-meter{min-width:0;min-height:0;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#71847a}\n.rc-volume-meter-label{font-size:10px;font-weight:600;letter-spacing:0;color:var(--green);white-space:nowrap}\n.rc-volume-meter meter{width:16px;height:clamp(300px,88vh,640px);min-height:0;flex-shrink:1;writing-mode:vertical-lr;transform:rotate(180deg);accent-color:var(--green)}\n.rc-volume-meter-label,.rc-volume-meter strong{flex-shrink:0}\n.rc-volume-meter meter::-webkit-meter-bar{border:0;border-radius:8px;background:#dfe9e2;box-shadow:inset 0 0 0 1px #cbd9d0}\n.rc-volume-meter meter::-webkit-meter-optimum-value{border-radius:8px;background:#147d70}\n.rc-volume-meter meter::-moz-meter-bar{border-radius:8px;background:#147d70}\n.rc-volume-meter strong{font-size:11px;font-weight:600;font-variant-numeric:tabular-nums;color:#52685e;white-space:nowrap}\n.rc-volume-meter strong small{font-size:9px;color:#8a968f}\n@media(min-width:721px) and (max-width:1000px){.rc-demo .rc-workspace{grid-template-columns:minmax(0,1.25fr) minmax(260px,1fr) 70px;column-gap:16px}.rc-volume-rail{gap:8px;padding-left:4px;padding-right:4px}.rc-demo .rc-controls{padding-left:20px}}\n@media(max-width:720px){.rc-demo .rc-workspace{grid-template-columns:1fr}.rc-volume-rail{width:100%;min-height:245px;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding:10px 34px;border-left:0;border-right:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.rc-volume-meter{height:auto;min-height:225px}.rc-volume-meter meter{height:204px}.rc-volume-rail--inactive{display:none}}\n</style>\n",
-        "visualBindings": "{\"control.80a6670211f2\":{\"locator\":\"name:9c7a486680a6670211f2\",\"adapter\":\"range\",\"type\":\"level\",\"label\":\"主音量 2\",\"mode\":\"both\",\"model\":\"volume2\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"1\"},\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/2/level1\",\"readPath\":\"//processors/1/channels/2/level1\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}}},\"control.e875927b3793\":{\"locator\":\"name:9c3ac93ae875927b3793\",\"adapter\":\"switch\",\"type\":\"mute\",\"label\":\"room01-mute\",\"mode\":\"both\",\"buttonBehavior\":\"momentary\",\"stateReverse\":false,\"model\":\"muted\",\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/1/mute1\",\"readPath\":\"//processors/1/channels/1/mute1\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}}},\"control.205ae4911ca4\":{\"locator\":\"name:b1d69a94205ae4911ca4\",\"adapter\":\"switch\",\"type\":\"mute\",\"label\":\"room01-mute2\",\"mode\":\"both\",\"buttonBehavior\":\"momentary\",\"stateReverse\":false,\"model\":\"muted2\",\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/1/mute2\",\"readPath\":\"//processors/1/channels/1/mute2\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}}},\"control.2d0b9d7f8ce5\":{\"locator\":\"name:edc1e2d82d0b9d7f8ce5\",\"adapter\":\"range\",\"type\":\"level\",\"label\":\"主音量\",\"mode\":\"both\",\"model\":\"volume\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"1\"},\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/1/level1\",\"readPath\":\"//processors/1/channels/1/level1\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false},\"ready\":{\"path\":\"//processors/1/stateReady\",\"onebased\":false}}}},\"control.7ebaf7216e21\":{\"locator\":\"name:fe9b818f7ebaf7216e21\",\"adapter\":\"meter\",\"type\":\"meter\",\"label\":\"实时信号电平 L2\",\"mode\":\"read\",\"model\":\"meter2\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"any\"},\"device\":\"Meter Validation\",\"writePath\":\"\",\"readPath\":\"//meter001\",\"readMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"ro\",\"onebased\":false,\"min\":0,\"max\":1000,\"controlType\":\"meter\",\"controlSchemaVersion\":1,\"meter\":{\"streamId\":\"validation/levels\",\"eventPath\":\"//frame\",\"manifestPath\":\"//manifest\"},\"unit\":\"synthetic\"}},\"control.341f742a1052\":{\"locator\":\"name:d05e1a09341f742a1052\",\"adapter\":\"meter\",\"type\":\"meter\",\"label\":\"实时信号电平 L1\",\"mode\":\"read\",\"model\":\"meter1\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"any\"},\"device\":\"Precis Driver\",\"writePath\":\"\",\"readPath\":\"//configuredCount\",\"readMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"ro\",\"onebased\":false,\"min\":0,\"max\":50,\"controlType\":\"meter\",\"controlSchemaVersion\":1}}}",
+        "visualBindings": "{\"control.80a6670211f2\":{\"locator\":\"name:9c7a486680a6670211f2\",\"adapter\":\"range\",\"type\":\"level\",\"label\":\"主音量 2\",\"mode\":\"both\",\"model\":\"volume2\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"1\"},\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/2/level1\",\"readPath\":\"//processors/1/channels/2/level1\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}}},\"control.e875927b3793\":{\"locator\":\"name:9c3ac93ae875927b3793\",\"adapter\":\"switch\",\"type\":\"mute\",\"label\":\"room01-mute\",\"mode\":\"both\",\"buttonBehavior\":\"momentary\",\"stateReverse\":false,\"model\":\"muted\",\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/1/mute1\",\"readPath\":\"//processors/1/channels/1/mute1\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}}},\"control.205ae4911ca4\":{\"locator\":\"name:b1d69a94205ae4911ca4\",\"adapter\":\"switch\",\"type\":\"mute\",\"label\":\"room01-mute2\",\"mode\":\"both\",\"buttonBehavior\":\"momentary\",\"stateReverse\":false,\"model\":\"muted2\",\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/1/mute2\",\"readPath\":\"//processors/1/channels/1/mute2\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"boolean\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":1,\"booleanMapping\":{\"falseValue\":false,\"trueValue\":true},\"controlType\":\"toggle\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}}},\"control.2d0b9d7f8ce5\":{\"locator\":\"name:edc1e2d82d0b9d7f8ce5\",\"adapter\":\"range\",\"type\":\"level\",\"label\":\"主音量\",\"mode\":\"both\",\"model\":\"volume\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"1\"},\"device\":\"Precis Driver\",\"writePath\":\"//processors/1/channels/1/level1\",\"readPath\":\"//processors/1/channels/1/level1\",\"writeMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}},\"readMeta\":{\"kind\":\"param\",\"type\":\"integer\",\"access\":\"rw\",\"onebased\":false,\"min\":0,\"max\":100,\"controlType\":\"slider\",\"controlSchemaVersion\":1,\"availability\":{\"online\":{\"path\":\"//processors/1/online\",\"onebased\":false}}}},\"control.341f742a1052\":{\"locator\":\"name:d05e1a09341f742a1052\",\"adapter\":\"meter\",\"type\":\"meter\",\"label\":\"实时信号电平 L1\",\"mode\":\"read\",\"model\":\"meter1\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"any\"},\"device\":\"BLU-806 HiQnet Driver\",\"writePath\":\"\",\"readPath\":\"//meterP4\",\"readMeta\":{\"kind\":\"param\",\"type\":\"float\",\"access\":\"ro\",\"onebased\":false,\"min\":-80,\"max\":40,\"controlType\":\"meter\",\"controlSchemaVersion\":1,\"meter\":{\"streamId\":\"blu806/meters\",\"eventPath\":\"//frame\",\"manifestPath\":\"//manifest\"},\"unit\":\"dB\",\"availability\":{\"online\":{\"path\":\"//online\",\"onebased\":false}}}},\"control.7ebaf7216e21\":{\"locator\":\"name:fe9b818f7ebaf7216e21\",\"adapter\":\"meter\",\"type\":\"meter\",\"label\":\"实时信号电平 L2\",\"mode\":\"read\",\"model\":\"meter2\",\"uiRange\":{\"min\":0,\"max\":100,\"step\":\"any\"},\"device\":\"BLU-806 HiQnet Driver\",\"writePath\":\"\",\"readPath\":\"//meterP5\",\"readMeta\":{\"kind\":\"param\",\"type\":\"float\",\"access\":\"ro\",\"onebased\":false,\"min\":-80,\"max\":40,\"controlType\":\"meter\",\"controlSchemaVersion\":1,\"meter\":{\"streamId\":\"blu806/meters\",\"eventPath\":\"//frame\",\"manifestPath\":\"//manifest\"},\"unit\":\"dB\",\"availability\":{\"online\":{\"path\":\"//online\",\"onebased\":false}}}}}",
         "boundRoom": "room-01",
         "nativeBridge": true,
-        "bridgeRevisionApplied": "v1:42943f1888f512260c615087992ff2ed66a657f8f57a1a13e17d35f749aad3da",
+        "bridgeRevisionApplied": "v1:745adf4dbbe126ff0148f7f3cb021a43949e052d134eea51209644d7ac0b4dac",
         "secureCookie": false,
         "storeOutMessages": true,
         "passthru": true,
