@@ -397,7 +397,7 @@
         "id": "cp7a5f64799848-bridge",
         "type": "subflow",
         "name": "Binding bridge cp7a5f64799848",
-        "info": "control-panel-managed-v1:combined_power_panel:8b2a18bc177d873a0af7b47def45dd6571396d4a027c7d679bcfc4fe534902f7",
+        "info": "control-panel-managed-v1:combined_power_panel:e0f31cc7c9a5729993658ee45c753029227212c793ededb85b8088b338817308",
         "category": "panel binding",
         "in": [
             {
@@ -474,7 +474,7 @@
         "id": "cp3b42054acab3-bridge",
         "type": "subflow",
         "name": "Binding bridge cp3b42054acab3",
-        "info": "control-panel-managed-v1:15f45309e23ec94e:8d04cb8c4744d39fb971e48ef31f5d82ecb6d8afdf838dd544ee4cbc7bbfae93",
+        "info": "control-panel-managed-v1:15f45309e23ec94e:fbc11b12c4d33864e5a92a373338690ad8d7ab3aa568ae2ee059f74d302f72af",
         "category": "panel binding",
         "in": [
             {
@@ -1076,12 +1076,13 @@
         "nodes": [
             "c0abea4ebb32be19",
             "1c62df002e7f491a",
-            "6c2b66fdc8fc3453"
+            "6c2b66fdc8fc3453",
+            "e3d2b4edca539150"
         ],
         "x": 114,
         "y": 59,
         "w": 612,
-        "h": 142
+        "h": 196
     },
     {
         "id": "5e46fe3fb35c58e3",
@@ -1147,7 +1148,8 @@
             "2bcf92793669b67d",
             "5e80e082492cb744",
             "a14b3426acdbc3fd",
-            "69194038b72438be"
+            "69194038b72438be",
+            "167c274b9771b06c"
         ],
         "x": 114,
         "y": 59,
@@ -2141,7 +2143,8 @@
             [
                 "cp1d75c34f7f4f-xy-series-manifest-1-tag"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-2"
     },
     {
         "id": "cp1d75c34f7f4f-xy-series-manifest-1-tag",
@@ -2205,7 +2208,8 @@
             [
                 "cp1d75c34f7f4f-xy-series-frame-1-tag"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-2"
     },
     {
         "id": "cp1d75c34f7f4f-xy-series-frame-1-tag",
@@ -2342,7 +2346,8 @@
             [
                 "cpdadbc5678357-tag-1"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cpdadbc5678357-tag-1",
@@ -2441,7 +2446,8 @@
             [
                 "cpdadbc5678357-tag-2"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cpdadbc5678357-tag-2",
@@ -2540,7 +2546,8 @@
             [
                 "cpdadbc5678357-tag-3"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cpdadbc5678357-tag-3",
@@ -2639,7 +2646,8 @@
             [
                 "cpdadbc5678357-tag-4"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cpdadbc5678357-tag-4",
@@ -4231,7 +4239,8 @@
             [
                 "cp7a5f64799848-health-tag-1"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-health-tag-1",
@@ -4309,7 +4318,8 @@
             [
                 "cp7a5f64799848-meter-manifest-1-tag"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-meter-manifest-1-tag",
@@ -4373,7 +4383,8 @@
             [
                 "cp7a5f64799848-meter-frame-1-tag"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-meter-frame-1-tag",
@@ -4459,7 +4470,8 @@
             [
                 "cp7a5f64799848-tag-1"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-1",
@@ -4538,7 +4550,8 @@
             [
                 "cp7a5f64799848-tag-2"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-2",
@@ -4637,7 +4650,8 @@
             [
                 "cp7a5f64799848-tag-3"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-3",
@@ -4716,7 +4730,8 @@
             [
                 "cp7a5f64799848-health-tag-2"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-health-tag-2",
@@ -4795,7 +4810,8 @@
             [
                 "cp7a5f64799848-tag-4"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-4",
@@ -4894,7 +4910,8 @@
             [
                 "cp7a5f64799848-tag-5"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-5",
@@ -4993,7 +5010,8 @@
             [
                 "cp7a5f64799848-tag-6"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-6",
@@ -5092,7 +5110,8 @@
             [
                 "cp7a5f64799848-tag-7"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-7",
@@ -5191,7 +5210,8 @@
             [
                 "cp7a5f64799848-tag-8"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp7a5f64799848-tag-8",
@@ -5370,7 +5390,8 @@
             [
                 "cp3b42054acab3-health-tag-1"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-health-tag-1",
@@ -5469,7 +5490,8 @@
             [
                 "cp3b42054acab3-tag-1"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-tag-1",
@@ -5568,7 +5590,8 @@
             [
                 "cp3b42054acab3-tag-2"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-tag-2",
@@ -5667,7 +5690,8 @@
             [
                 "cp3b42054acab3-tag-3"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-tag-3",
@@ -5766,7 +5790,8 @@
             [
                 "cp3b42054acab3-tag-4"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-tag-4",
@@ -5845,7 +5870,8 @@
             [
                 "cp3b42054acab3-health-tag-2"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-health-tag-2",
@@ -5923,7 +5949,8 @@
             [
                 "cp3b42054acab3-meter-manifest-1-tag"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-meter-manifest-1-tag",
@@ -5987,7 +6014,8 @@
             [
                 "cp3b42054acab3-meter-frame-1-tag"
             ]
-        ]
+        ],
+        "cpSubscriptionEpoch": "catalog-1"
     },
     {
         "id": "cp3b42054acab3-meter-frame-1-tag",
@@ -6182,7 +6210,7 @@
     },
     {
         "id": "31ded4370da78590",
-        "type": "Control Panel",
+        "type": "tp5-control-panel",
         "z": "b4a657287d65f01c",
         "name": "AMX-3200",
         "mojo": {
@@ -6230,41 +6258,46 @@
     },
     {
         "id": "c0abea4ebb32be19",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "4c0e41c0927d4396",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//2/7",
-            "locator": {
-                "ccode": 1,
-                "cport": 1
-            },
-            "trigger": "PUSH",
-            "state": "NONE",
-            "buttonType": "MOMENTARY"
+            "path": [
+                "//2/7"
+            ],
+            "locator": [
+                {
+                    "ccode": 1,
+                    "cport": 1
+                }
+            ],
+            "trigger": "ANY",
+            "panel": "31ded4370da78590",
+            "feedback": "MOMENTARY"
         },
         "x": 200,
         "y": 160,
         "wires": [
             [
-                "1c62df002e7f491a"
+                "e3d2b4edca539150"
             ]
         ]
     },
     {
         "id": "1c62df002e7f491a",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "4c0e41c0927d4396",
         "name": "Go to \"Main\" page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "^PGE-",
-            "g5Command": "^PGE-Main",
-            "page": "//1"
+            "panel": "31ded4370da78590",
+            "type": "^PGE",
+            "command": "^PGE-Main",
+            "path": [
+                "//1"
+            ]
         },
         "x": 410,
         "y": 160,
@@ -6285,15 +6318,15 @@
     },
     {
         "id": "2f4195c75e20a823",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"UI Elements\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-UI Elements",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-UI Elements",
+            "path": []
         },
         "x": 520,
         "y": 500,
@@ -6303,15 +6336,15 @@
     },
     {
         "id": "30cfa770a5674034",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"Duet Modules\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-Duet Module",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-Duet Module",
+            "path": []
         },
         "x": 520,
         "y": 1100,
@@ -6321,15 +6354,15 @@
     },
     {
         "id": "ae650a0126e9d6be",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"IP Comms\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-IP Comms",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-IP Comms",
+            "path": []
         },
         "x": 510,
         "y": 1000,
@@ -6339,15 +6372,15 @@
     },
     {
         "id": "252c745c35b75c0d",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"Serial Comms\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-Serial Comms",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-Serial Comms",
+            "path": []
         },
         "x": 520,
         "y": 900,
@@ -6357,15 +6390,15 @@
     },
     {
         "id": "de14f2c14c05b06a",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"IR\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-IR",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-IR",
+            "path": []
         },
         "x": 490,
         "y": 800,
@@ -6375,15 +6408,15 @@
     },
     {
         "id": "62217fa2185fa031",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"IO\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-IO",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-IO",
+            "path": []
         },
         "x": 490,
         "y": 700,
@@ -6393,15 +6426,15 @@
     },
     {
         "id": "c25dde917adc736d",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"Relays\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-Relays",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-Relays",
+            "path": []
         },
         "x": 500,
         "y": 600,
@@ -6422,21 +6455,24 @@
     },
     {
         "id": "4a5616530177add9",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: UI Elements",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/9",
-            "locator": {
-                "ccode": 11,
-                "cport": 1
-            },
+            "path": [
+                "//1/9"
+            ],
+            "locator": [
+                {
+                    "ccode": 11,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE",
-            "panel_group": ""
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 230,
         "y": 500,
@@ -6449,20 +6485,24 @@
     },
     {
         "id": "3915547a3eeee430",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: Relays",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/12",
-            "locator": {
-                "ccode": 12,
-                "cport": 1
-            },
+            "path": [
+                "//1/12"
+            ],
+            "locator": [
+                {
+                    "ccode": 12,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 210,
         "y": 600,
@@ -6475,20 +6515,24 @@
     },
     {
         "id": "d706197182344ac7",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: IO",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/14",
-            "locator": {
-                "ccode": 13,
-                "cport": 1
-            },
+            "path": [
+                "//1/14"
+            ],
+            "locator": [
+                {
+                    "ccode": 13,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 700,
@@ -6501,20 +6545,24 @@
     },
     {
         "id": "5ae4843399ce0fdd",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: IR",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/13",
-            "locator": {
-                "ccode": 14,
-                "cport": 1
-            },
+            "path": [
+                "//1/13"
+            ],
+            "locator": [
+                {
+                    "ccode": 14,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 800,
@@ -6527,20 +6575,24 @@
     },
     {
         "id": "58dfa247b7675ffd",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: Serial Comms",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/11",
-            "locator": {
-                "ccode": 15,
-                "cport": 1
-            },
+            "path": [
+                "//1/11"
+            ],
+            "locator": [
+                {
+                    "ccode": 15,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 230,
         "y": 900,
@@ -6553,20 +6605,24 @@
     },
     {
         "id": "352a9957c7c80af4",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: IP Comms",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/17",
-            "locator": {
-                "ccode": 16,
-                "cport": 1
-            },
+            "path": [
+                "//1/17"
+            ],
+            "locator": [
+                {
+                    "ccode": 16,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 1000,
@@ -6579,20 +6635,24 @@
     },
     {
         "id": "799138abe11a1e70",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: Duet Modules",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/18",
-            "locator": {
-                "ccode": 17,
-                "cport": 1
-            },
+            "path": [
+                "//1/18"
+            ],
+            "locator": [
+                {
+                    "ccode": 17,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 230,
         "y": 1100,
@@ -6854,15 +6914,17 @@
     },
     {
         "id": "7b0bb006faab8473",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "c0bf9add05ea679b",
         "name": "Go to \"Startup\" page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "^PGE-",
-            "g5Command": "^PGE-Startup",
-            "page": "//2"
+            "panel": "31ded4370da78590",
+            "type": "^PGE",
+            "command": "^PGE-Startup",
+            "path": [
+                "//2"
+            ]
         },
         "x": 420,
         "y": 300,
@@ -6872,20 +6934,24 @@
     },
     {
         "id": "25d62284e19c3b18",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "c0bf9add05ea679b",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/7",
-            "locator": {
-                "ccode": 2,
-                "cport": 1
-            },
+            "path": [
+                "//1/7"
+            ],
+            "locator": [
+                {
+                    "ccode": 2,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 300,
@@ -6897,15 +6963,15 @@
     },
     {
         "id": "bed8692931c32c88",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Show \"Duet Modules\" popup page",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPN-AAtest",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPN",
+            "command": "^PPN-AAtest",
+            "path": []
         },
         "x": 520,
         "y": 1240,
@@ -6915,20 +6981,24 @@
     },
     {
         "id": "da893aee7ad36e8e",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "402a96427b244973",
         "g": "5e46fe3fb35c58e3",
         "name": "Push: AA",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//1/10",
-            "locator": {
-                "ccode": 3,
-                "cport": 1
-            },
+            "path": [
+                "//1/10"
+            ],
+            "locator": [
+                {
+                    "ccode": 3,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 1240,
@@ -7015,21 +7085,24 @@
     },
     {
         "id": "fffcf75b709f80c1",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "86b3dfff997bbaec",
         "name": "On Level change",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "LEVEL",
-            "path": "//502/10",
-            "locator": {
-                "lcode": 24,
-                "lport": 1
-            },
-            "buttonType": "MOMENTARY",
+            "path": [
+                "//502/10"
+            ],
+            "locator": [
+                {
+                    "lcode": 24,
+                    "lport": 1
+                }
+            ],
             "trigger": "ANY",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 840,
@@ -7061,20 +7134,24 @@
     },
     {
         "id": "bf8f0757c0b468ec",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "d96a941fe1074598",
         "name": "On Push: Up button",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/9",
-            "locator": {
-                "ccode": 25,
-                "cport": 1
-            },
+            "path": [
+                "//502/9"
+            ],
+            "locator": [
+                {
+                    "ccode": 25,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "ON"
+            "panel": "31ded4370da78590",
+            "feedback": "ON"
         },
         "x": 230,
         "y": 1100,
@@ -7086,20 +7163,24 @@
     },
     {
         "id": "d4daa3ae86f919a3",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "d96a941fe1074598",
         "name": "On Push: Down button",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/12",
-            "locator": {
-                "ccode": 26,
-                "cport": 1
-            },
+            "path": [
+                "//502/12"
+            ],
+            "locator": [
+                {
+                    "ccode": 26,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "ON"
+            "panel": "31ded4370da78590",
+            "feedback": "ON"
         },
         "x": 240,
         "y": 1300,
@@ -7176,20 +7257,24 @@
     },
     {
         "id": "5c93b3d9ba1c0b44",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "d96a941fe1074598",
         "name": "On Release: Up button",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/9",
-            "locator": {
-                "ccode": 25,
-                "cport": 1
-            },
+            "path": [
+                "//502/9"
+            ],
+            "locator": [
+                {
+                    "ccode": 25,
+                    "cport": 1
+                }
+            ],
             "trigger": "RELEASE",
-            "state": "OFF"
+            "panel": "31ded4370da78590",
+            "feedback": "OFF"
         },
         "x": 240,
         "y": 1180,
@@ -7274,20 +7359,24 @@
     },
     {
         "id": "54cd1ea19899bead",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "d96a941fe1074598",
         "name": "On Release: Down button",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/12",
-            "locator": {
-                "ccode": 26,
-                "cport": 1
-            },
+            "path": [
+                "//502/12"
+            ],
+            "locator": [
+                {
+                    "ccode": 26,
+                    "cport": 1
+                }
+            ],
             "trigger": "RELEASE",
-            "state": "OFF"
+            "panel": "31ded4370da78590",
+            "feedback": "OFF"
         },
         "x": 250,
         "y": 1380,
@@ -7375,20 +7464,24 @@
     },
     {
         "id": "61b82b2df1e35c18",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "30a7b6e61e6d3c6c",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/15",
-            "locator": {
-                "ccode": 22,
-                "cport": 1
-            },
+            "path": [
+                "//502/15"
+            ],
+            "locator": [
+                {
+                    "ccode": 22,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "ON"
+            "panel": "31ded4370da78590",
+            "feedback": "ON"
         },
         "x": 200,
         "y": 420,
@@ -7401,20 +7494,24 @@
     },
     {
         "id": "a0215a49bca2763a",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "30a7b6e61e6d3c6c",
         "name": "On Release",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/15",
-            "locator": {
-                "ccode": 22,
-                "cport": 1
-            },
+            "path": [
+                "//502/15"
+            ],
+            "locator": [
+                {
+                    "ccode": 22,
+                    "cport": 1
+                }
+            ],
             "trigger": "RELEASE",
-            "state": "OFF"
+            "panel": "31ded4370da78590",
+            "feedback": "OFF"
         },
         "x": 210,
         "y": 620,
@@ -7596,22 +7693,24 @@
     },
     {
         "id": "c5c745f1bddeee63",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "ab3b61686abdd0a2",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/6",
-            "locator": {
-                "ccode": 21,
-                "cport": 1
-            },
+            "path": [
+                "//502/6"
+            ],
+            "locator": [
+                {
+                    "ccode": 21,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE",
-            "buttonType": "TOGGLE",
-            "panel_group": ""
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 160,
@@ -7623,21 +7722,24 @@
     },
     {
         "id": "24f62dbae116cd49",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6c500140c77cc8c4",
         "g": "ab3b61686abdd0a2",
         "name": "On Release",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//502/6",
-            "locator": {
-                "ccode": 21,
-                "cport": 1
-            },
+            "path": [
+                "//502/6"
+            ],
+            "locator": [
+                {
+                    "ccode": 21,
+                    "cport": 1
+                }
+            ],
             "trigger": "RELEASE",
-            "state": "NONE",
-            "buttonType": "TOGGLE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 210,
         "y": 240,
@@ -8170,18 +8272,23 @@
     },
     {
         "id": "778eb89f8a638cc3",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "0d7602a9b554120f",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "LEVEL",
-            "path": "//502/10",
-            "locator": {
-                "lcode": 24,
-                "lport": 1
-            }
+            "path": [
+                "//502/10"
+            ],
+            "locator": [
+                {
+                    "lcode": 24,
+                    "lport": 1
+                }
+            ],
+            "panel": "31ded4370da78590",
+            "feedback": "NONE",
+            "trigger": "ANY"
         },
         "x": 120,
         "y": 700,
@@ -8248,18 +8355,23 @@
     },
     {
         "id": "e7b0baa29ad26710",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "0d7602a9b554120f",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "LEVEL",
-            "path": "//502/10",
-            "locator": {
-                "lcode": 24,
-                "lport": 1
-            }
+            "path": [
+                "//502/10"
+            ],
+            "locator": [
+                {
+                    "lcode": 24,
+                    "lport": 1
+                }
+            ],
+            "panel": "31ded4370da78590",
+            "feedback": "NONE",
+            "trigger": "ANY"
         },
         "x": 120,
         "y": 840,
@@ -8296,27 +8408,29 @@
     },
     {
         "id": "adf809e7f3f67ac2",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "0d7602a9b554120f",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//502/6",
-            "locator": {
-                "ccode": 21,
-                "cport": 1
-            },
-            "buttonType": "MOMENTARY",
-            "trigger": "RELEASE",
-            "state": "NONE"
+            "path": [
+                "//502/6"
+            ],
+            "locator": [
+                {
+                    "ccode": 21,
+                    "cport": 1
+                }
+            ],
+            "trigger": "ANY",
+            "panel": "31ded4370da78590",
+            "feedback": "MOMENTARY"
         },
         "x": 120,
         "y": 960,
         "wires": [
             [
-                "bb7a724d6125fed0"
+                "36d08b14a67feb6d"
             ]
         ]
     },
@@ -8528,20 +8642,24 @@
     },
     {
         "id": "3402ada6a7b74218",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "8a586f7fd8160893",
         "g": "50073d74b56f91e8",
         "name": "Push Latch Off",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//511/11",
-            "locator": {
-                "ccode": 32,
-                "cport": 1
-            },
+            "path": [
+                "//511/11"
+            ],
+            "locator": [
+                {
+                    "ccode": 32,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 180,
@@ -8553,21 +8671,24 @@
     },
     {
         "id": "7ab3372af667b86a",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "8a586f7fd8160893",
         "g": "86d3a3bc92b056b8",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//511/16",
-            "locator": {
-                "ccode": 34,
-                "cport": 1
-            },
+            "path": [
+                "//511/16"
+            ],
+            "locator": [
+                {
+                    "ccode": 34,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE",
-            "buttonType": "TOGGLE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 640,
@@ -8579,20 +8700,24 @@
     },
     {
         "id": "c59edfa075cfc010",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "8a586f7fd8160893",
         "g": "e0d0d94989933e84",
         "name": "On Push or Release",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//511/23",
-            "locator": {
-                "ccode": 33,
-                "cport": 1
-            },
+            "path": [
+                "//511/23"
+            ],
+            "locator": [
+                {
+                    "ccode": 33,
+                    "cport": 1
+                }
+            ],
             "trigger": "ANY",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 230,
         "y": 400,
@@ -8604,20 +8729,24 @@
     },
     {
         "id": "e3cf0a1ddd8cac70",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "8a586f7fd8160893",
         "g": "17e6dfccc9da307f",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//511/21",
-            "locator": {
-                "ccode": 35,
-                "cport": 1
-            },
+            "path": [
+                "//511/21"
+            ],
+            "locator": [
+                {
+                    "ccode": 35,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 900,
@@ -9006,21 +9135,24 @@
     },
     {
         "id": "a3507061aad7e6bd",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "8a586f7fd8160893",
         "g": "50073d74b56f91e8",
         "name": "Push: Latch On",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//511/10",
-            "locator": {
-                "ccode": 31,
-                "cport": 1
-            },
+            "path": [
+                "//511/10"
+            ],
+            "locator": [
+                {
+                    "ccode": 31,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE",
-            "buttonType": "TOGGLE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 100,
@@ -9327,20 +9459,24 @@
     },
     {
         "id": "3b757c63ba3c75e4",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "bb1fe29e5ba07023",
         "g": "3fd6d6574e43eb72",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//503/24",
-            "locator": {
-                "ccode": 101,
-                "cport": 1
-            },
+            "path": [
+                "//503/24"
+            ],
+            "locator": [
+                {
+                    "ccode": 101,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 980,
@@ -9352,20 +9488,24 @@
     },
     {
         "id": "7d12cd273b597e30",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "bb1fe29e5ba07023",
         "g": "d9477553b036124e",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//503/25",
-            "locator": {
-                "ccode": 102,
-                "cport": 1
-            },
+            "path": [
+                "//503/25"
+            ],
+            "locator": [
+                {
+                    "ccode": 102,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 1080,
@@ -9562,20 +9702,24 @@
     },
     {
         "id": "f471650313c0ce53",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "57dc7a651c6d679a",
         "g": "70f3ef648d167db8",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//508/7",
-            "locator": {
-                "ccode": 1,
-                "cport": 2
-            },
+            "path": [
+                "//508/7"
+            ],
+            "locator": [
+                {
+                    "ccode": 1,
+                    "cport": 2
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 140,
@@ -9587,20 +9731,24 @@
     },
     {
         "id": "e078d5e3b895e49d",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "57dc7a651c6d679a",
         "g": "0b8641aaa676abd5",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//508/8",
-            "locator": {
-                "ccode": 3,
-                "cport": 2
-            },
+            "path": [
+                "//508/8"
+            ],
+            "locator": [
+                {
+                    "ccode": 3,
+                    "cport": 2
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 260,
@@ -9612,20 +9760,24 @@
     },
     {
         "id": "542fbb4488513c95",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "57dc7a651c6d679a",
         "g": "671a3b7ac770f452",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//508/9",
-            "locator": {
-                "ccode": 2,
-                "cport": 2
-            },
+            "path": [
+                "//508/9"
+            ],
+            "locator": [
+                {
+                    "ccode": 2,
+                    "cport": 2
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 380,
@@ -9703,20 +9855,24 @@
     },
     {
         "id": "45f784fa4dc749f5",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "57dc7a651c6d679a",
         "g": "297b58d53381d2f1",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//508/10",
-            "locator": {
-                "ccode": 7,
-                "cport": 2
-            },
+            "path": [
+                "//508/10"
+            ],
+            "locator": [
+                {
+                    "ccode": 7,
+                    "cport": 2
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 800,
         "y": 140,
@@ -9728,20 +9884,24 @@
     },
     {
         "id": "abb7b0747cc02c6a",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "57dc7a651c6d679a",
         "g": "95819fe2184599eb",
         "name": "On Push",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//508/11",
-            "locator": {
-                "ccode": 6,
-                "cport": 2
-            },
+            "path": [
+                "//508/11"
+            ],
+            "locator": [
+                {
+                    "ccode": 6,
+                    "cport": 2
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 800,
         "y": 260,
@@ -9982,22 +10142,26 @@
     },
     {
         "id": "237b090c68f8e19e",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "69c4b32b8a9eeb2e",
         "g": "12bea1b882ad17e6",
         "name": "When keyboard icon button pushed",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//507/6",
-            "locator": {
-                "acode": 153,
-                "aport": 1,
-                "ccode": 153,
-                "cport": 1
-            },
+            "path": [
+                "//507/6"
+            ],
+            "locator": [
+                {
+                    "acode": 153,
+                    "aport": 1,
+                    "ccode": 153,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 280,
         "y": 560,
@@ -10009,20 +10173,24 @@
     },
     {
         "id": "6479b2d8a6162b8b",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "69c4b32b8a9eeb2e",
         "g": "12bea1b882ad17e6",
         "name": "When \"Send\" button pushed",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//507/1",
-            "locator": {
-                "ccode": 154,
-                "cport": 1
-            },
+            "path": [
+                "//507/1"
+            ],
+            "locator": [
+                {
+                    "ccode": 154,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 260,
         "y": 820,
@@ -10380,20 +10548,24 @@
     },
     {
         "id": "72d5d24a06ed0b1f",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "69c4b32b8a9eeb2e",
         "g": "3fb2314d5d2c70f6",
         "name": "On Press",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//507/28",
-            "locator": {
-                "ccode": 151,
-                "cport": 1
-            },
+            "path": [
+                "//507/28"
+            ],
+            "locator": [
+                {
+                    "ccode": 151,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 200,
         "y": 380,
@@ -10427,20 +10599,24 @@
     },
     {
         "id": "43542e7495853f2a",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "69c4b32b8a9eeb2e",
         "g": "a31cd23a20fb31c1",
         "name": "On Press",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//507/29",
-            "locator": {
-                "ccode": 152,
-                "cport": 1
-            },
+            "path": [
+                "//507/29"
+            ],
+            "locator": [
+                {
+                    "ccode": 152,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 740,
         "y": 380,
@@ -10632,20 +10808,24 @@
     },
     {
         "id": "c88a9331aa6bb8b9",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "987aea556f99bc0c",
         "g": "0a32a7d7efb13874",
         "name": "When \"Power Off\" button pushed",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//509/1",
-            "locator": {
-                "ccode": 182,
-                "cport": 1
-            },
+            "path": [
+                "//509/1"
+            ],
+            "locator": [
+                {
+                    "ccode": 182,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 270,
         "y": 320,
@@ -10657,20 +10837,24 @@
     },
     {
         "id": "1c3d2d43f5d030ec",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "987aea556f99bc0c",
         "g": "0a32a7d7efb13874",
         "name": "When \"Power On\" button pushed",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//509/2",
-            "locator": {
-                "ccode": 183,
-                "cport": 1
-            },
+            "path": [
+                "//509/2"
+            ],
+            "locator": [
+                {
+                    "ccode": 183,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 270,
         "y": 400,
@@ -11169,19 +11353,24 @@
     },
     {
         "id": "b1ce2c169352f77f",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "987aea556f99bc0c",
         "g": "f8a1bdabc4d4adae",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "LEVEL",
-            "path": "//509/15",
-            "locator": {
-                "lcode": 2,
-                "lport": 1
-            }
+            "path": [
+                "//509/15"
+            ],
+            "locator": [
+                {
+                    "lcode": 2,
+                    "lport": 1
+                }
+            ],
+            "panel": "31ded4370da78590",
+            "feedback": "NONE",
+            "trigger": "ANY"
         },
         "x": 100,
         "y": 920,
@@ -11696,23 +11885,26 @@
     },
     {
         "id": "4ea3405f3ff3cd13",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "987aea556f99bc0c",
         "g": "41f5e6cfb1a4a777",
         "name": "When keyboard icon button pushed",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//509/18",
-            "locator": {
-                "acode": 1,
-                "aport": 1,
-                "ccode": 8,
-                "cport": 1
-            },
+            "path": [
+                "//509/18"
+            ],
+            "locator": [
+                {
+                    "acode": 1,
+                    "aport": 1,
+                    "ccode": 8,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE",
-            "panel_group": ""
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 180,
         "y": 1340,
@@ -11746,21 +11938,24 @@
     },
     {
         "id": "312749f1e7a94e64",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "987aea556f99bc0c",
         "g": "41f5e6cfb1a4a777",
         "name": "When \"Send\" button pushed",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//509/17",
-            "locator": {
-                "ccode": 9,
-                "cport": 1
-            },
+            "path": [
+                "//509/17"
+            ],
+            "locator": [
+                {
+                    "ccode": 9,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE",
-            "panel_group": ""
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 160,
         "y": 1600,
@@ -12056,24 +12251,26 @@
     },
     {
         "id": "53cfdb9cf19053b9",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "987aea556f99bc0c",
         "g": "dfb48f53edaf2515",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//509/16",
-            "locator": {
-                "acode": 2,
-                "aport": 1,
-                "ccode": 7,
-                "cport": 1
-            },
-            "buttonType": "TOGGLE",
+            "path": [
+                "//509/16"
+            ],
+            "locator": [
+                {
+                    "acode": 2,
+                    "aport": 1,
+                    "ccode": 7,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 100,
         "y": 1740,
@@ -12604,46 +12801,53 @@
     },
     {
         "id": "ec3ca6d4f78d9608",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6cc65b7825ea277a",
         "g": "e76b9cf3dcee569c",
         "name": "Push: Power Off",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//510/11",
-            "locator": {
-                "ccode": 224,
-                "cport": 1
-            },
-            "trigger": "PUSH",
-            "state": "NONE",
-            "buttonType": "MOMENTARY"
+            "path": [
+                "//510/11"
+            ],
+            "locator": [
+                {
+                    "ccode": 224,
+                    "cport": 1
+                }
+            ],
+            "trigger": "ANY",
+            "panel": "31ded4370da78590",
+            "feedback": "MOMENTARY"
         },
         "x": 220,
         "y": 140,
         "wires": [
             [
-                "2bcf92793669b67d"
+                "167c274b9771b06c"
             ]
         ]
     },
     {
         "id": "e97cd3ee620738b8",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6cc65b7825ea277a",
         "g": "e76b9cf3dcee569c",
         "name": "Push: Power On",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//510/12",
-            "locator": {
-                "ccode": 225,
-                "cport": 1
-            },
+            "path": [
+                "//510/12"
+            ],
+            "locator": [
+                {
+                    "ccode": 225,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 220,
@@ -12655,20 +12859,24 @@
     },
     {
         "id": "236be46337ca8636",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "6cc65b7825ea277a",
         "g": "e76b9cf3dcee569c",
         "name": "Push: Power Cycle",
         "mojo": {
-            "cp": "31ded4370da78590",
             "type": "BUTTON",
-            "path": "//510/14",
-            "locator": {
-                "ccode": 226,
-                "cport": 1
-            },
+            "path": [
+                "//510/14"
+            ],
+            "locator": [
+                {
+                    "ccode": 226,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 230,
         "y": 300,
@@ -13043,22 +13251,24 @@
     },
     {
         "id": "8c6b6d65a03e9b23",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "cd3cca68517b9120",
         "g": "f9c1d07e1ff6a4da",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//504/16",
-            "locator": {
-                "ccode": 6,
-                "cport": 1
-            },
-            "buttonType": "TOGGLE",
+            "path": [
+                "//504/16"
+            ],
+            "locator": [
+                {
+                    "ccode": 6,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 220,
         "y": 240,
@@ -13241,22 +13451,24 @@
     },
     {
         "id": "d28a4348580a6e77",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "cd3cca68517b9120",
         "g": "58aafa05747831d2",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//504/11",
-            "locator": {
-                "ccode": 4,
-                "cport": 1
-            },
-            "buttonType": "TOGGLE",
+            "path": [
+                "//504/11"
+            ],
+            "locator": [
+                {
+                    "ccode": 4,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "ON"
+            "panel": "31ded4370da78590",
+            "feedback": "ON"
         },
         "x": 220,
         "y": 460,
@@ -13294,22 +13506,24 @@
     },
     {
         "id": "032c054960f74b3c",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "cd3cca68517b9120",
         "g": "58aafa05747831d2",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//504/11",
-            "locator": {
-                "ccode": 4,
-                "cport": 1
-            },
-            "buttonType": "TOGGLE",
+            "path": [
+                "//504/11"
+            ],
+            "locator": [
+                {
+                    "ccode": 4,
+                    "cport": 1
+                }
+            ],
             "trigger": "RELEASE",
-            "state": "OFF"
+            "panel": "31ded4370da78590",
+            "feedback": "OFF"
         },
         "x": 220,
         "y": 540,
@@ -13339,22 +13553,24 @@
     },
     {
         "id": "9b7f4dcf0458fe17",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "cd3cca68517b9120",
         "g": "58aafa05747831d2",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//504/12",
-            "locator": {
-                "ccode": 5,
-                "cport": 1
-            },
-            "buttonType": "TOGGLE",
+            "path": [
+                "//504/12"
+            ],
+            "locator": [
+                {
+                    "ccode": 5,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "ON"
+            "panel": "31ded4370da78590",
+            "feedback": "ON"
         },
         "x": 220,
         "y": 640,
@@ -13392,22 +13608,24 @@
     },
     {
         "id": "f16c34bf04ee5239",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "cd3cca68517b9120",
         "g": "58aafa05747831d2",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//504/12",
-            "locator": {
-                "ccode": 5,
-                "cport": 1
-            },
-            "buttonType": "TOGGLE",
+            "path": [
+                "//504/12"
+            ],
+            "locator": [
+                {
+                    "ccode": 5,
+                    "cport": 1
+                }
+            ],
             "trigger": "RELEASE",
-            "state": "OFF"
+            "panel": "31ded4370da78590",
+            "feedback": "OFF"
         },
         "x": 220,
         "y": 720,
@@ -13562,14 +13780,14 @@
     },
     {
         "id": "2d2fd68f7d901ea4",
-        "type": "Navigate",
+        "type": "tp5-ui-navigate",
         "z": "cd3cca68517b9120",
         "name": "Navigate",
         "mojo": {
-            "cp": "fc30073a2eafdb7a",
-            "g5CommandPrefix": "",
-            "g5Command": "^PPF-2,ITOA(5),ITOA(10),77,77",
-            "page": ""
+            "panel": "31ded4370da78590",
+            "type": "^PPF",
+            "command": "^PPF-2,ITOA(5),ITOA(10),77,77",
+            "path": []
         },
         "x": 1180,
         "y": 520,
@@ -13597,21 +13815,23 @@
     },
     {
         "id": "425fad04e721ec85",
-        "type": "UI Control",
+        "type": "tp5-ui-control",
         "z": "cd3cca68517b9120",
         "name": "UI Control",
         "mojo": {
-            "cp": "31ded4370da78590",
-            "panel_group": "",
             "type": "BUTTON",
-            "path": "//504/16",
-            "locator": {
-                "ccode": 6,
-                "cport": 1
-            },
-            "buttonType": "TOGGLE",
+            "path": [
+                "//504/16"
+            ],
+            "locator": [
+                {
+                    "ccode": 6,
+                    "cport": 1
+                }
+            ],
             "trigger": "PUSH",
-            "state": "NONE"
+            "panel": "31ded4370da78590",
+            "feedback": "NONE"
         },
         "x": 980,
         "y": 520,
@@ -13967,12 +14187,12 @@
         "z": "cp_room01_binding_tab",
         "name": "Controller",
         "mojo": {
-            "controller": "10.213.129.91:8080",
-            "protocol": "http",
-            "host": "10.213.129.91",
-            "port": 8080,
+            "controller": "192.168.5.5:443",
+            "protocol": "https",
+            "host": "192.168.5.5",
+            "port": 443,
             "username": "admin",
-            "password": "pass"
+            "password": "password"
         },
         "x": 1060,
         "y": 280,
@@ -14584,5 +14804,76 @@
                 "combined_power_observe"
             ]
         ]
+    },
+    {
+        "id": "e3d2b4edca539150",
+        "type": "switch",
+        "z": "402a96427b244973",
+        "name": "仅传递按下事件",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 215,
+        "wires": [
+            [
+                "1c62df002e7f491a"
+            ]
+        ],
+        "g": "4c0e41c0927d4396"
+    },
+    {
+        "id": "36d08b14a67feb6d",
+        "type": "switch",
+        "z": "0d7602a9b554120f",
+        "name": "仅传递松开事件",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 290,
+        "y": 1015,
+        "wires": [
+            [
+                "bb7a724d6125fed0"
+            ]
+        ]
+    },
+    {
+        "id": "167c274b9771b06c",
+        "type": "switch",
+        "z": "6cc65b7825ea277a",
+        "name": "仅传递按下事件",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 195,
+        "wires": [
+            [
+                "2bcf92793669b67d"
+            ]
+        ],
+        "g": "e76b9cf3dcee569c"
     }
 ]
